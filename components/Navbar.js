@@ -47,25 +47,25 @@ const location = usePathname();
           {/* Desktop Navigation */}
           <div className="hidden xl:flex items-center justify-center flex-1">
             <ul className="flex gap-6 text-gray-700 font-medium text-xs sm:text-sm md:text-base lg:text-lg">
-              <li><Link href="/" className={`hover:text-green-600 hover:border-b-2 border-black ${location === '/' ? `text-green-600` : ``}`}>Home</Link></li>
+              <li><Link href="/" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/' ? `text-green-600` : ``}`} title="Home">Home</Link></li>
               {/* <li><Link href="/jobs" className="hover:text-blue-600">Apply Jobs</Link></li> */}
-              <li><Link href="/interview-prepration" className={`hover:text-green-600 hover:border-b-2 border-black ${location === '/interview-prepration' ? `text-green-600` : ``}`}>Interview Preparation</Link></li>
-              <li><Link href="https://jobhub-resume-builder.vercel.app" target="_blank" className={`hover:text-green-600 hover:border-b-2 border-black ${location ==='https://jobhub-resume-builder.vercel.app'? `text-green-600` : ``}`}>Build Resume Quickly</Link></li>
-              <li><Link href="/about-us" className={`hover:text-green-600 hover:border-b-2 border-black ${location === '/about-us'? `text-green-600` : ``}`}>About</Link></li>
-              <li><Link href="/contact-us" className={`hover:text-green-600 hover:border-b-2 border-black ${location ==='/contact-us' ? `text-green-600` : ``}`}>Contact Us</Link></li>
+              <li><Link href="/interview-prepration" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/interview-prepration' ? `text-green-600 border-b-2 ` : ``}`} title="Interview Preparation">Interview Preparation</Link></li>
+              <li><Link href="https://jobhub-resume-builder.vercel.app" target="_blank" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location ==='https://jobhub-resume-builder.vercel.app'? `text-green-600  border-b-2 ` : ``}`} title="Build Resume Quickly">Build Resume Quickly</Link></li>
+              <li><Link href="/about-us" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/about-us'? `text-green-600  border-b-2 ` : ``}`} title="About us">About us</Link></li>
+              <li><Link href="/contact-us" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location ==='/contact-us' ? `text-green-600  border-b-2 ` : ``}`} title="Contact us">Contact us</Link></li>
             </ul>
           </div>
 
           {/* Desktop Admin Link */}
           <div className="hidden xl:flex items-center">
-            <Link href="/candidatesignup" className={`hover:text-green-600 hover:border-b-2 border-black ${location ==='/admin' ? `text-green-600` : ``}`}>
+            <Link href="/candidatesignup" className={`bg-green-300 p-1 text-[#333] font-medium rounded-md border-b-2 border-b-black hover:bg-green-100 ${location ==='/candidatesignup' ? `text-green-600  border-b-2 ` : ``}`} title="Candidate Registration Form ">
               Candidate Form
             </Link>
           </div>
 
           {/* Mobile Menu Toggle + Admin */}
           <div className="xl:hidden flex items-center gap-4">
-            <Link href="/candidatesignup" className={`hover:text-green-600 hover:border-b-2 border-black ${location ==='/admin' ? `text-green-600` : `text-black`}`}>
+            <Link href="/candidatesignup" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location ==='/candidatesignup' ? `text-green-600  border-b-2 ` : `text-black`}`}>
               Candidate Form
             </Link>
             <button

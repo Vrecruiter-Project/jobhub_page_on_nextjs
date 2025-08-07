@@ -458,7 +458,7 @@ export default function HomePage() {
             POPULAR <span className="text-green-800 font-bold">JOBS</span>
           </h2>
           <main className="p-5">
-            <ul className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-5 gap-4">
+            <ul className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-4">
               {Object.entries(jobsData).map(([slug, jobData]) => (
                 <li key={slug}>
                   <Link
@@ -477,7 +477,12 @@ export default function HomePage() {
                         <span key={index} className="bg-white  p-1 rounded-lg text-[10px] text-blue-500 font-semibold">{items}</span>
                       ))}
                     </div>
-                    <button type="button" className="bg-green-800 text-white text-xs p-1 mt-4 rounded-md cursor-pointer">Apply Now</button>
+                    <button
+                    type="button"
+                    className="bg-green-800 text-white text-xs p-1 mt-4 rounded-md cursor-pointer transition duration-200 ease-in-out hover:bg-green-700"
+                  >
+                    Apply Now
+                  </button>
                   </Link>
                 </li>
               ))}
@@ -792,7 +797,10 @@ export default function HomePage() {
                   className="text-lg font-semibold"
                   onClick={() => toggle(id)}
                 >
+                  <div className="flex justify-between">
                   {question}
+                  <div><i className={`fa-solid fa-angle-down ${openId === id ? 'rotate-180' : 'rotate-0'}`}></i></div>
+                  </div>
                 </h3>
                 {openId === id && (
                   <p className="mt-2 text-gray-700 ">
