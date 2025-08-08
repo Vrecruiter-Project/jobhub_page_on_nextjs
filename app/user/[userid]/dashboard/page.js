@@ -49,7 +49,7 @@ export default function DashboardPage() {
 
   useEffect(() => {
     async function fetchUser() {
-      const res = await fetch('/api/users/me');
+      const res = await fetch('/api/users/me', {method: 'GET', credentials:'include'});
       const data = await res.json();
       if (res.ok) {
         setName(data.user.name);

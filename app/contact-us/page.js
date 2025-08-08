@@ -190,10 +190,12 @@ export default function ContactUs() {
                             Have questions or need help? Reach out to us through the details below.
                         </p>
                         <div className="text-sm text-gray-700 space-y-2">
-                            <p><strong>Email:</strong> support@jobhubworld.com</p>
-                            <p><strong>Phone:</strong> +91 98765 43210</p>
-                            <p><strong>Location:</strong> Plot 27, Sector 42, Chandigarh, India</p>
-                            <p><strong>Working Hours:</strong> Mon – Fri, 9:00 AM – 6:00 PM</p>
+                            <p><strong>Email:</strong> vrecruitersofficial@gmail.com</p>
+                            <p><strong>Phone:</strong> +91  98187-37641</p>
+                            <p><strong>Location:</strong> SUSHMA Infinium,
+                                                        Delhi NH-22, Zirakpur,
+                                                        Chandigarh, India</p>
+                            <p><strong>Working Hours:</strong> Mon – Sat, 9:00 AM – 6:00 PM</p>
                         </div>
                     </div>
                 </div>

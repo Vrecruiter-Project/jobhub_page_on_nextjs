@@ -4,17 +4,19 @@ import JobCard from '@/components/JobCard';
 
 export default function JobList() {
   const [jobs, setJobs] = useState([]);
+  const [onSearchVal, setOnSearchVal] = useState('')
   const [visibleJobs, setVisibleJobs] = useState(6);
   useEffect(() => {
     const fetchJobs = async () => {
       const res = await fetch('/api/jobs'); // Make sure this route returns all jobs
       const data = await res.json();
       setJobs(data.jobs.reverse());
-      console.log(data.jobs)
     };
 
     fetchJobs();
   }, []);
+
+  const searchJobs = jobs.filter((val) => val.jobtitle.toLowerCase().includes(onSearchVal.toLowerCase()))
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
@@ -30,19 +32,21 @@ export default function JobList() {
         <div className="mb-6 flex flex-col md:flex-row gap-4">
           <div className="flex-1">
             <input
+              value={onSearchVal}
+              onChange={(e) => setOnSearchVal(e.target.value)}
               type="text"
               placeholder="Search jobs..."
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
             />
           </div>
           <div className="flex gap-2">
-            <select className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+            <select className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500">
               <option>All Job Types</option>
               <option>Full-time</option>
               <option>Part-time</option>
               <option>Contract</option>
             </select>
-            <select className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+            <select className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500">
               <option>All Locations</option>
               <option>On-site</option>
               <option>Remote</option>
@@ -53,8 +57,8 @@ export default function JobList() {
 
         {/* Jobs Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {jobs.length > 0 ? (
-            jobs.slice(0, visibleJobs).map(job => (
+          {searchJobs.length > 0 ? (
+            searchJobs.slice(0, visibleJobs).map(job => (
               <JobCard key={job._id} job={job} />
             ))
           ) : (
@@ -76,7 +80,7 @@ export default function JobList() {
           <div className="mt-6 flex justify-center">
             <button
               onClick={() => setVisibleJobs(prev => Math.min(prev + 6, 15))}
-              className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
             >
               Load More
             </button>
