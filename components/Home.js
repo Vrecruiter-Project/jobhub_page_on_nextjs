@@ -168,12 +168,12 @@ export default function HomePage() {
               className="border border-gray-300 p-2 rounded-md sm:w-full w-[75%]  placeholder:text-black text-center focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent"
             />
             <button
-              className="button relative py-2 sm:py-1.5 px-4 text-[13px] sm:text-lg  hover:text-black border rounded cursor-pointer overflow-hidden  font-semibold"
+              className="button relative py-2 sm:py-1.5 px-3 text-[13px] sm:text-lg  hover:text-black border rounded cursor-pointer overflow-hidden  font-semibold"
               title="Search"
               style={{ backgroundColor: gloabalTheme.colors.primary }}
             // onClick={handleSearch}
             >
-              <span className="relative z-10">Search</span>
+              <Link href={'/candidatesignup'} className="relative z-10">Search</Link>
             </button>
             {showError && (
               <p>
@@ -196,12 +196,12 @@ export default function HomePage() {
             </div>
             <p className="ml-2 text-sm">get hired Today!</p>
           </div>
-          <div className="mt-10 text-sm">
+          <div className="mt-10 text-xs">
             <p className="">how do i apply jobs on jobhub.world?</p>
             {/* <Box className="flex sm:text-sm text-xs gap-3 py-3"> */}
-            <div className="flex gap-5 py-1 "></div>
-            <span className="bg-slate-100 p-1 rounded-md">Search Jobs <a href="#popularSection" className=" underline bg-black p-1 text-white rounded-md">here</a></span>
-            <span className="bg-slate-100 p-1 rounded-md">See <span className="font-semibold   p-1 rounded-md">Joblisting</span></span>
+            <div className="flex  py-1 "></div>
+            <span className="bg-slate-100 p-1 rounded-md mr-1">Search Jobs <a href="#popularSection" className=" underline bg-black p-1 text-white rounded-md">here</a></span>
+            <span className="bg-slate-100 p-1 rounded-md mr-1">See <span className="font-semibold   p-1 rounded-md">Joblisting</span></span>
             <span className="bg-slate-100 p-1 rounded-md">Finally <span className="font-semibold  p-1 rounded-md">fillup</span>form</span>
           </div>
         </article>
@@ -213,7 +213,7 @@ export default function HomePage() {
             <h1 className="text-[4rem] font-semibold">
               <Typewriter/>
               <span className="">With</span>
-              <span className="text-green-800">JOBHUB</span>
+              <span className="text-green-800"> JOBHUB</span>
               <span className="text-xl">.world</span>
             </h1>
 
@@ -269,12 +269,12 @@ export default function HomePage() {
                 </select>
 
 
-                <button
-                  type="submit"
+                <Link
+                href={'/candidatesignup'}
                   className="bg-green-800 hover:bg-green-700 text-white px-6 py-2 rounded-md transition-colors duration-200 font-medium flex-1 sm:w-[20%] w-full"
                 >
                   Search
-                </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -15,6 +15,7 @@ export default function CandidateLogin() {
             const res = await fetch('/api/candidate/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
+                credentials:"include",
                 body: JSON.stringify(form),
             });
 

@@ -171,7 +171,7 @@ function page() {
                         </p>
                         <a
                             href="/contact-us"
-                            className="inline-block bg-green-800 text-white px-6 py-3 rounded-full font-medium hover:bg-gray-700 transition"
+                            className="inline-block bg-green-800 text-white px-6 py-3 rounded-full font-medium hover:bg-black transition"
                         >
                             Get in Touch with Us
                         </a>

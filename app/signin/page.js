@@ -15,6 +15,7 @@ export default function SignIn({ user }) {
         const res = await fetch('/api/users/signin', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
+            credentials:'include',
             body: JSON.stringify(form),
         });
 
