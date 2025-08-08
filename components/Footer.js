@@ -71,7 +71,7 @@ const Footer = () => {
                     {/* Logo & Info */}
                     <div className="w-full lg:w-1/3 mb-8">
                         <Link href="/" className="inline-block mb-6">
-                            <Image src="/images/JobhubFooterLogo.png" alt="logo" width={200} height={200} />
+                            <Image src="/JobhubFooterlogo.png" alt="logo" width={200} height={200} />
                         </Link>
                         <p className="text-sm text-gray-400 leading-7 mb-4">
                             Find Your Career With JOBHUB <br />
