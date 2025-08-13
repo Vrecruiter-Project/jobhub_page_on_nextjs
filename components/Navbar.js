@@ -58,7 +58,7 @@ const location = usePathname();
 
           {/* Desktop Admin Link */}
           <div className="hidden xl:flex items-center">
-            <Link href="/candidatesignup" className={`bg-green-300 p-1 text-[#333] font-medium rounded-md border-b-2 border-b-black hover:bg-green-100 ${location ==='/candidatesignup' ? `text-green-600  border-b-2 ` : ``}`} title="Candidate Registration Form ">
+            <Link href="/candidatesignup" className={`bg-green-700 p-1 text-white font-medium rounded-md border-b-2 border-b-black hover:bg-green-200 hover:text-black ${location ==='/candidatesignup' ? `text-green-600  border-b-2 ` : ``}`} title="Candidate Registration Form ">
               Candidate Form
             </Link>
           </div>

@@ -28,18 +28,16 @@ const avatarStyles = [
 ];
 
 const logos = [
-  "/images/companies-list/AbroadFliersLogo.png",
-  "/images/companies-list/AmCareLogo.jpeg",
-  "/images/companies-list/AebocodeLogo.png",
-  "/images/companies-list/AadiSoftLogo.jpg",
-  "/images/companies-list/FarlexLogo.jpg",
-  "/images/companies-list/FutureITLogo.png",
-  "/images/companies-list/IvsLogo.jpg",
-  "/images/companies-list/JDevelopers.png",
-  "/images/companies-list/JungleworksLogo.png",
-  "/images/companies-list/RBLLogo.png",
-  "/images/companies-list/RGGroupsLogo.png",
-  "/images/companies-list/eventHolidaysLogo.png",
+  "/images/companies-list/1.png",
+  "/images/companies-list/2.png",
+  "/images/companies-list/3.png",
+  "/images/companies-list/4.png",
+  "/images/companies-list/5.png",
+  "/images/companies-list/6.png",
+  "/images/companies-list/7.png",
+  "/images/companies-list/8.png",
+  "/images/companies-list/9.png",
+  "/images/companies-list/10.png",
 ];
 
 // Resume sections 
