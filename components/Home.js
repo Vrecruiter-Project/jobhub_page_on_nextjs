@@ -461,7 +461,7 @@ export default function HomePage() {
                 <li key={slug}>
                   <Link
                     href={`/jobprofiles/${slug}`}
-                    className="block capitalize bg-green-100 p-4 rounded-md hover:bg-green-200 transition text-xl font-semibold text-gray-800"
+                    className="block capitalize bg-gray-100 p-4 rounded-md hover:bg-green-200 transition text-xl font-semibold text-gray-800"
                   >
                     {slug.replace(/-/g, " ")}
                     <p className="text-xs mt-3">Work Type</p>
@@ -477,7 +477,7 @@ export default function HomePage() {
                     </div>
                     <button
                     type="button"
-                    className="bg-green-800 text-white text-xs p-1 mt-4 rounded-md cursor-pointer transition duration-200 ease-in-out hover:bg-green-700"
+                    className="bg-green-700 text-white text-xs p-1 mt-4 rounded-md cursor-pointer transition duration-200 ease-in-out hover:bg-green-800"
                   >
                     Apply Now
                   </button>
