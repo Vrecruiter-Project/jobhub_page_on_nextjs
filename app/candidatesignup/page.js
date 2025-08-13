@@ -38,7 +38,9 @@ export default function Canidate() {
             const data = await res.json();
             console.log(data)
             if (res.ok) {
-                setTimeout(router.push(`/canidate/${data.candiates.id}/dashboard`), 3000)
+                /**  */
+                // setTimeout(router.push(`/canidate/${data.candiates.id}/dashboard`), 3000)
+                setTimeout(router.push(`/interview-prepration`), 3000)
                 setMessage('Candiate Created Successfully');
                 setForm({
                     name: '',
