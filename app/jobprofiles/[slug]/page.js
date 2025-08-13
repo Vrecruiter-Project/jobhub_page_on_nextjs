@@ -4,6 +4,7 @@ import { jobsData } from '@/data/Jobpage';
 import GlobalCategories from '@/components/Categories/circle';
 import Script from 'next/script';
 import SubscribeMail from '@/components/Subscribe/subscribe';
+import Link from 'next/link';
 // For static generation
 export function generateStaticParams() {
     return Object.keys(jobsData).map((slug) => ({ slug }));
@@ -166,8 +167,8 @@ export default function JobProfilePage({ params }) {
                         </button> */}
                     </div>
                 </div>
-                <div className='hidden max-sm:block w-full fixed bottom-0 left-2/6'>
-                    <button className='bg-green-500 text-lg p-2 rounded-lg font-semibold '>Apply Now</button>
+                <div className='hidden max-sm:block w-full fixed bottom-0 left-2/6 mb-3'>
+                    <Link href={'/candidatesignup'} className='bg-green-500 text-lg p-2 rounded-lg font-semibold '>Apply Now</Link>
                 </div>
             </main>
             <div className="bg-white rounded-xl shadow-md p-6  md:p-8 border border-gray-200 max-w-3xl mx-auto">
