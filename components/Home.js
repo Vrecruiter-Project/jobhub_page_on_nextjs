@@ -225,12 +225,12 @@ export default function HomePage() {
                 <span>For Employer</span>
               </div>
 
-              <button
-                type="button"
+              <Link
+                href={'https://employer-dashboard-jobhub-z56k.vercel.app'}
                 className="text-sm border-2 border-green-600 text-green-600 px-3 py-2 rounded-lg hover:bg-green-600 hover:text-white transition-colors duration-200"
               >
                 Hire Now
-              </button>
+              </Link>
             </div>
             <div className="mt-4 bg-white lg:w-[75%] w-full rounded-lg shadow-md">
               <div className="p-2 flex gap-3 items-center">
