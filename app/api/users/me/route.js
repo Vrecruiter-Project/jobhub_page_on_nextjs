@@ -34,7 +34,7 @@ export async function GET() {
         const decoded = jwt.verify(token, JWT_SECRET);
 
         // Fetch the user from DB using decoded.id
-        const user = await User.findById(decoded.id).select('name role _id');
+        const user = await User.findById(decoded.id).select('fullname role _id');
         console.log(decoded);
         
         if (!user) {
@@ -45,7 +45,7 @@ export async function GET() {
         return NextResponse.json({
             user: {
                 id: user._id,
-                name: user.name,
+                name: user.fullname,
                 role: user.role,
             }
         });

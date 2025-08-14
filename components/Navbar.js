@@ -2,17 +2,32 @@
 import Image from "next/image";
 import Link from "next/link"
 import Banner from "@/components/Banner";
-import React from "react";
+import React, { useEffect } from "react";
 import { usePathname } from 'next/navigation'
 
 const Navbar = () => {
+
   const [isOpen, setIsOpen] = React.useState(false);
-const location = usePathname();
+  const location = usePathname();
   // Toggle menu
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const fetchJobs = async () => {
+      const res = await fetch('/api/users/me', {
+        method: 'GET',
+        credentials: "include"
+      }); // Make sure this route returns all jobs
+      const data = await res.json();
+      console.log(data)
+      // setJobs(data.jobs);
+
+    };
+
+    fetchJobs();
+  }, []);
   // Close menu when resizing to desktop view
   React.useEffect(() => {
     const handleResize = () => {
@@ -25,6 +40,7 @@ const location = usePathname();
     handleResize(); // Initial check
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
   return (
     <>
       <Banner />
@@ -50,22 +66,29 @@ const location = usePathname();
               <li><Link href="/" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/' ? `text-green-600` : ``}`} title="Home">Home</Link></li>
               {/* <li><Link href="/jobs" className="hover:text-blue-600">Apply Jobs</Link></li> */}
               <li><Link href="/interview-prepration" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/interview-prepration' ? `text-green-600 border-b-2 ` : ``}`} title="Interview Preparation">Interview Preparation</Link></li>
-              <li><Link href="https://jobhub-resume-builder.vercel.app" target="_blank" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location ==='https://jobhub-resume-builder.vercel.app'? `text-green-600  border-b-2 ` : ``}`} title="Build Resume Quickly">Build Resume Quickly</Link></li>
-              <li><Link href="/about-us" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/about-us'? `text-green-600  border-b-2 ` : ``}`} title="About us">About us</Link></li>
-              <li><Link href="/contact-us" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location ==='/contact-us' ? `text-green-600  border-b-2 ` : ``}`} title="Contact us">Contact us</Link></li>
+              <li><Link href="https://jobhub-resume-builder.vercel.app" target="_blank" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === 'https://jobhub-resume-builder.vercel.app' ? `text-green-600  border-b-2 ` : ``}`} title="Build Resume Quickly">Build Resume Quickly</Link></li>
+              <li><Link href="/about-us" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/about-us' ? `text-green-600  border-b-2 ` : ``}`} title="About us">About us</Link></li>
+              <li><Link href="/contact-us" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/contact-us' ? `text-green-600  border-b-2 ` : ``}`} title="Contact us">Contact us</Link></li>
             </ul>
           </div>
 
           {/* Desktop Admin Link */}
-          <div className="hidden xl:flex items-center">
-            <Link href="/candidatesignup" className={`bg-green-700 p-1 text-white font-medium rounded-md border-b-2 border-b-black hover:bg-green-200 hover:text-black ${location ==='/candidatesignup' ? `text-green-600  border-b-2 ` : ``}`} title="Candidate Registration Form ">
-              Candidate Form
+          <div className="hidden xl:flex items-center gap-3">
+            <Link href="/candidatesignup" className={`bg-green-700 p-1 text-white font-medium rounded-md border-b-2 border-b-black  ${location === '/candidatesignup' ? `text-green-600  border-b-2 ` : ``}`} title="Candidate login ">
+              Login In
+            </Link>
+            <Link
+              href={'https://employer-dashboard-jobhub-z56k.vercel.app'}
+              className="px-2 py-2 rounded-md transition-colors duration-200 font-medium flex-1 sm:w-[20%] w-full hover:bg-green-700 hover:text-white "
+              title="Employer Login "
+            >
+              Employer Login
             </Link>
           </div>
 
           {/* Mobile Menu Toggle + Admin */}
           <div className="xl:hidden flex items-center gap-4">
-            <Link href="/candidatesignup" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location ==='/candidatesignup' ? `text-green-600  border-b-2 ` : `text-black`}`}>
+            <Link href="/candidatesignup" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/candidatesignup' ? `text-green-600  border-b-2 ` : `text-black`}`}>
               Candidate Form
             </Link>
             <button
