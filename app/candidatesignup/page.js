@@ -40,7 +40,7 @@ export default function Canidate() {
             if (res.ok) {
                 /**  */
                 // setTimeout(router.push(`/canidate/${data.candiates.id}/dashboard`), 3000)
-                setTimeout(router.push(`/interview-prepration`), 3000)
+                setTimeout(router.push(`/interview-prepration`), 1000)
                 setMessage('Candiate Created Successfully');
                 setForm({
                     name: '',
