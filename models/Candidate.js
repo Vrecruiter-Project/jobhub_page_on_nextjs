@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
 
+// Embedded education schema
 const educationSchema = new mongoose.Schema({
   qualification: { type: String, trim: true },
   fieldOfStudy: { type: String, trim: true },
@@ -8,10 +9,11 @@ const educationSchema = new mongoose.Schema({
   yearPass: { type: String, trim: true }
 }, { _id: false });
 
+// Main candidate schema
 const candidateSchema = new mongoose.Schema({
-  name: {
+  fullname: {
     type: String,
-    required: [true, 'Name is required'],
+    required: [true, 'Full name is required'],
     trim: true
   },
   email: {
@@ -31,20 +33,42 @@ const candidateSchema = new mongoose.Schema({
     type: String,
     default: 'candidate'
   },
-  phoneNumber: {
+  number: {
     type: String,
+    required: true,
+    match: [/^\d{10}$/, 'Please enter a valid 10-digit phone number'],
     trim: true
   },
   dob: {
-    type: Date
+    type: Date,
+    required: true
   },
   gender: {
     type: String,
+    required: true,
     enum: ['Male', 'Female', 'Other']
   },
   address: {
     type: String,
+    required: true,
     trim: true
+  },
+  position: {
+    type: String,
+    required: true,
+    trim: true
+  },
+  resume: {
+    type: String // URL or file path
+  },
+  video: {
+    type: String // URL to video
+  },
+  remark: {
+    type: String
+  },
+  enrollment: {
+    type: Boolean
   },
   education: [educationSchema],
   fresher: {
@@ -78,4 +102,6 @@ candidateSchema.methods.comparePassword = async function (candidatePassword) {
   return bcrypt.compare(candidatePassword, this.password);
 };
 
-export default mongoose.models.Candidates || mongoose.model('Candidates', candidateSchema);
+export default mongoose.models.registeredcandidates || mongoose.model('registeredcandidates', candidateSchema);
+
+// registeredcandidates

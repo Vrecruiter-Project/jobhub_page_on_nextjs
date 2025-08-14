@@ -9,13 +9,14 @@ import confetti from "canvas-confetti";
 export default function Canidate() {
     const router = useRouter();
     const [form, setForm] = useState({
-        name: '',
+        fullname: '',
         email: '',
         password: '',
-        phoneNumber: '',
+        number: '',
         dob: '',
         gender: '',
         address: '' || null,
+        position: '',
         education: [{
             qualification: '',
             fieldOfStudy: '',
@@ -25,6 +26,7 @@ export default function Canidate() {
         fresher: true,
         experience: '' || null
     });
+
     const [message, setMessage] = useState('');
     async function handleSubmit(e) {
         e.preventDefault();
@@ -43,13 +45,14 @@ export default function Canidate() {
                 setTimeout(router.push(`/interview-prepration`), 1000)
                 setMessage('Candiate Created Successfully');
                 setForm({
-                    name: '',
+                    fullname: '',
                     email: '',
                     password: '',
-                    phoneNumber: '',
+                    number: '',
                     dob: '',
                     gender: '',
                     address: '',
+                    position: '',
                     education: [{
                         qualification: '',
                         fieldOfStudy: '',
@@ -58,20 +61,21 @@ export default function Canidate() {
                     }],
                     fresher: true,
                     experience: ''
-                })
+                });
+
             } else {
                 setMessage(`${data.message || `Failed to create Candiate User`}`)
             }
 
-        // function randomInRange(min, max) {
-        //     return Math.random() * (max - min) + min;
-        // }
-        // confetti({
-        //     angle: randomInRange(55, 125),
-        //     spread: randomInRange(90, 150),
-        //     particleCount: randomInRange(60, 100),
-        //     origin: { y: 1 },
-        // });
+            // function randomInRange(min, max) {
+            //     return Math.random() * (max - min) + min;
+            // }
+            // confetti({
+            //     angle: randomInRange(55, 125),
+            //     spread: randomInRange(90, 150),
+            //     particleCount: randomInRange(60, 100),
+            //     origin: { y: 1 },
+            // });
         } catch (error) {
             setMessage(`❌ Error: ${error.message}`);
         }
@@ -134,8 +138,8 @@ export default function Canidate() {
                             </label>
                             <input
                                 type="text"
-                                value={form.name}
-                                onChange={(e) => setForm({ ...form, name: e.target.value })}
+                                value={form.fullname}
+                                onChange={(e) => setForm({ ...form, fullname: e.target.value })}
                                 required
                                 className="w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                 placeholder="John Doe"
@@ -177,10 +181,23 @@ export default function Canidate() {
                             </label>
                             <input
                                 type="tel"
-                                value={form.phoneNumber}
-                                onChange={(e) => setForm({ ...form, phoneNumber: e.target.value })}
+                                value={form.number}
+                                onChange={(e) => setForm({ ...form, number: e.target.value })}
                                 className="w-full p-3 border border-gray-300 rounded-md"
                                 placeholder="+1 234 567 8900"
+                            />
+                        </div>
+                        <div>
+                            <label className="block mb-2 font-medium text-gray-700">
+                                Position Applying For*
+                            </label>
+                            <input
+                                type="text"
+                                value={form.position}
+                                onChange={(e) => setForm({ ...form, position: e.target.value })}
+                                required
+                                className="w-full p-3 border border-gray-300 rounded-md"
+                                placeholder="e.g., Frontend Developer, Data Analyst"
                             />
                         </div>
                     </div>
@@ -362,7 +379,7 @@ export default function Canidate() {
                         Complete Registration
                     </button>
                 </form>
-                    {/* <div className="p-3 bg-amber-300" onClick={() => handleClick()}>Confetti</div> */}
+                {/* <div className="p-3 bg-amber-300" onClick={() => handleClick()}>Confetti</div> */}
                 {/* Status Message */}
                 {message && (
                     <p className={`mt-6 text-center p-3 rounded font-medium ${message.includes('Error')
