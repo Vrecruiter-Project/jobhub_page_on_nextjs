@@ -24,11 +24,11 @@ export async function GET() {
 
 export async function POST(req) {
     try {
-        const { name, email, password, phoneNumber, dob, gender, address, education, fresher, experience } = await req.json();
+        const { fullname, email, password, number, dob, gender, address, education, fresher, experience, position } = await req.json();
         await connectDB();
         const existingUser = await Candidates.findOne({ email });
         if (existingUser) return NextResponse.json({ message: 'Email already exists' }, { status: 400 });
-        const newCandidate = new Candidates({ name, email, password, role: 'candidate', phoneNumber, dob, gender, address, education, fresher, experience });
+        const newCandidate = new Candidates({ fullname, email, password, role: 'candidate', number, dob, gender, address, education, fresher, experience, position });
         const token = jwt.sign({ id: newCandidate._id, email: newCandidate.email, role: 'candidate' }, JWT_SECRET, { expiresIn: '1h' });
         await newCandidate.save();
         const response = NextResponse.json({ message: 'SignUp complete', candiates: { id: newCandidate._id, name: newCandidate.name, email: newCandidate.email, role: 'candidate' } })
