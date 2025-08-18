@@ -74,12 +74,12 @@ const Navbar = () => {
 
           {/* Desktop Admin Link */}
           <div className="hidden xl:flex items-center gap-3">
-            <Link href="/candidatesignup" className={`bg-green-700 p-1 text-white font-medium rounded-md border-b-2 border-b-black  ${location === '/candidatesignup' ? `text-green-600  border-b-2 ` : ``}`} title="Candidate login ">
-              Login In
+            <Link href="/candidatesignup" className={`bg-green-700 p-1 text-white font-medium rounded-md border-b-2 border-b-black  ${location === '/candidatesignup' ? `text-green-600  border-b-2 ` : ``}`} title="Candidate sign up ">
+              Candidate Sign up
             </Link>
             <Link
               href={'https://employer-dashboard-jobhub-z56k.vercel.app'}
-              className="px-2 py-2 rounded-md transition-colors duration-200 font-medium flex-1 sm:w-[20%] w-full hover:bg-green-700 hover:text-white "
+              className="px-2 py-1 rounded-md transition-colors duration-200 font-medium flex-1  w-full hover:bg-green-700 hover:text-white  hover:border-b-2 border-b-black"
               title="Employer Login "
             >
               Employer Login
@@ -88,8 +88,8 @@ const Navbar = () => {
 
           {/* Mobile Menu Toggle + Admin */}
           <div className="xl:hidden flex items-center gap-4">
-            <Link href="/candidatesignup" className={`relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/candidatesignup' ? `text-green-600  border-b-2 ` : `text-black`}`}>
-              Candidate Form
+            <Link href="/candidatesignup" className={`text-sm relative inline-block after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-green-600 after:transition-all after:duration-300 hover:after:w-full ${location === '/candidatesignup' ? `text-green-600  border-b-2 ` : `text-black`}`}>
+              Candidate Signup
             </Link>
             <button
               onClick={toggleMenu}
