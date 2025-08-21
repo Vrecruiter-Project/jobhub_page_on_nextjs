@@ -78,7 +78,7 @@ const Navbar = () => {
               Candidate Sign up
             </Link>
             <Link
-              href={'https://employer-dashboard-jobhub-z56k.vercel.app'}
+              href={'https://employer-dashboard.jobhub.world'}
               className="px-2 py-1 rounded-md transition-colors duration-200 font-medium flex-1  w-full hover:bg-green-700 hover:text-white  hover:border-b-2 border-b-black"
               title="Employer Login "
             >
