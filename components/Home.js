@@ -226,7 +226,7 @@ export default function HomePage() {
               </div>
 
               <Link
-                href={'https://employer-dashboard-jobhub-z56k.vercel.app'}
+                href={'https://employer-dashboard.jobhub.world'}
                 className="text-sm border-2 border-green-600 text-green-600 px-3 py-2 rounded-lg hover:bg-green-600 hover:text-white transition-colors duration-200"
               >
                 Hire Now
