@@ -56,14 +56,14 @@ export const jobsData = {
             keywords:
                 'telecaller jobs Zirakpur, telecaller jobs Chandigarh Mohali, BPO jobs Panchkula, customer support work from home, inbound telecaller jobs, outbound call center jobs, night shift telecaller jobs, female telecaller jobs, international calling jobs, telemarketing jobs for freshers',
             author: "JobHub - India's Fastest Growing Job Portal",
-            canonical: 'https://www.jobhub.world/telecaller',
+            canonical: 'https://www.jobhub.world/jobprofiles/telecaller-profile',
             og: {
                 title: 'Hiring 250+ Telecallers in Zirakpur & Chandigarh | JobHub',
                 description:
                     'Urgent hiring for telecallers in Zirakpur & Chandigarh region. Full-time, part-time & work-from-home options available. Salary ₹15,000 - ₹25,000. Apply now or post jobs free!',
                 image:
                     'https://cdn.jsdelivr.net/gh/Vrecruiter-Project/socialAssests@latest/assets/seo/TeleCaller%20(1).png',
-                url: 'https://www.jobhub.world/telecaller',
+                url: 'https://www.jobhub.world/jobprofiles/telecaller-profile',
             },
             twitter: {
                 title: 'Telecaller Job Openings in Zirakpur (Chandigarh) - Apply Today',
@@ -752,133 +752,133 @@ export const jobsData = {
     },
 
     // Construction profile and the all inside for static site
-    'construction': {
-        title: 'Construction Worker & Site Roles',
-        description:
-            'Join 2500+ job openings for Civil Engineers, Electricians, Masons, and Construction Laborers across India. From residential to commercial and infrastructure projects. Apply now with or without experience.',
+    // 'construction': {
+    //     title: 'Construction Worker & Site Roles',
+    //     description:
+    //         'Join 2500+ job openings for Civil Engineers, Electricians, Masons, and Construction Laborers across India. From residential to commercial and infrastructure projects. Apply now with or without experience.',
 
-        image: '/images/jobprofile/7.png',
-        insights: [
-            '2500+ active construction job listings.',
-            'Openings for Civil Engineers, Electricians, Masons & Labor.',
-            'Projects: Residential, Commercial, Infrastructure.',
-            'Daily/weekly/monthly wage options.',
-            'Freshers and skilled workers welcome.',
-        ],
-        tags: ['Civil Engineer', 'Mason', 'Electrician', 'Construction Labor', 'Site Supervisor'],
-        location: 'Pan India (Urban & Semi-urban areas)',
-        salary: '₹15,000 - ₹1,00,000/month',
+    //     image: '/images/jobprofile/7.png',
+    //     insights: [
+    //         '2500+ active construction job listings.',
+    //         'Openings for Civil Engineers, Electricians, Masons & Labor.',
+    //         'Projects: Residential, Commercial, Infrastructure.',
+    //         'Daily/weekly/monthly wage options.',
+    //         'Freshers and skilled workers welcome.',
+    //     ],
+    //     tags: ['Civil Engineer', 'Mason', 'Electrician', 'Construction Labor', 'Site Supervisor'],
+    //     location: 'Pan India (Urban & Semi-urban areas)',
+    //     salary: '₹15,000 - ₹1,00,000/month',
 
-        responsibilities: [
-            'Assist in construction site operations (labor, materials, safety).',
-            'Civil engineers to manage design and structural work.',
-            'Electricians and welders for internal and external fittings.',
-            'Follow site supervisor and engineer instructions.',
-            'Maintain safety protocols on-site.',
-        ],
+    //     responsibilities: [
+    //         'Assist in construction site operations (labor, materials, safety).',
+    //         'Civil engineers to manage design and structural work.',
+    //         'Electricians and welders for internal and external fittings.',
+    //         'Follow site supervisor and engineer instructions.',
+    //         'Maintain safety protocols on-site.',
+    //     ],
 
-        qualifications: [
-            'No formal education required for general labor.',
-            'Diploma/Degree required for Civil Engineers.',
-            'ITI/Apprenticeship preferred for electricians and technicians.',
-            'Physically fit and willing to work on-site.',
-            'Prior site or construction experience is a plus.',
-        ],
+    //     qualifications: [
+    //         'No formal education required for general labor.',
+    //         'Diploma/Degree required for Civil Engineers.',
+    //         'ITI/Apprenticeship preferred for electricians and technicians.',
+    //         'Physically fit and willing to work on-site.',
+    //         'Prior site or construction experience is a plus.',
+    //     ],
 
-        benefits: [
-            'Free uniforms and basic safety gear provided.',
-            'Daily wages and weekly payments for some roles.',
-            'Work near home or relocate for higher pay.',
-            'Growth paths to supervisor roles or contracts.',
-            'Accommodation support for select locations.',
-        ],
+    //     benefits: [
+    //         'Free uniforms and basic safety gear provided.',
+    //         'Daily wages and weekly payments for some roles.',
+    //         'Work near home or relocate for higher pay.',
+    //         'Growth paths to supervisor roles or contracts.',
+    //         'Accommodation support for select locations.',
+    //     ],
 
-        workType: 'Full-Time / Part-Time / Contractor',
-        shift: 'Day shift / Shift-based (for large projects)',
+    //     workType: 'Full-Time / Part-Time / Contractor',
+    //     shift: 'Day shift / Shift-based (for large projects)',
 
-        metadata: {
-            title: 'Construction Jobs | Hiring Labor, Supervisors & Engineers - JobHub.world',
-            description:
-                '🏗️ 2500+ Construction Jobs in India | Civil Engineers, Masons, Electricians & More | ₹15K-1L/month | Immediate Openings | Residential & Commercial Projects | Apply Today!',
-            keywords:
-                'construction jobs, civil engineer jobs, mason jobs, electrician jobs, site supervisor jobs, carpenter jobs, welder jobs, construction labor jobs, real estate jobs, building construction jobs',
-            author: 'JobHub.world - India\'s Leading Construction Job Platform',
-            canonical: 'https://www.jobhub.world/construction',
-            og: {
-                title: '🔨 2500+ Construction Jobs - Hiring Now | JobHub.world',
-                description:
-                    'Urgent hiring for construction projects: Civil Engineers (₹35K-1L), Masons (₹18K-40K), Electricians (₹20K-45K). Residential, Commercial & Infrastructure projects across India.',
-                image: 'https://www.jobhub.world/images/og/construction-jobs-og.jpg',
-                url: 'https://www.jobhub.world/construction',
-            },
-            twitter: {
-                title: 'Construction Jobs - 2500+ Openings @JobHub.world',
-                description:
-                    'Civil Engineers, Masons, Electricians & Construction Labor needed for projects across India. Daily/weekly payroll available. #ConstructionJobs #HiringNow',
-                image: 'https://www.jobhub.world/images/twitter/construction-jobs-card.jpg',
-            },
-        },
+    //     metadata: {
+    //         title: 'Construction Jobs | Hiring Labor, Supervisors & Engineers - JobHub.world',
+    //         description:
+    //             '🏗️ 2500+ Construction Jobs in India | Civil Engineers, Masons, Electricians & More | ₹15K-1L/month | Immediate Openings | Residential & Commercial Projects | Apply Today!',
+    //         keywords:
+    //             'construction jobs, civil engineer jobs, mason jobs, electrician jobs, site supervisor jobs, carpenter jobs, welder jobs, construction labor jobs, real estate jobs, building construction jobs',
+    //         author: 'JobHub.world - India\'s Leading Construction Job Platform',
+    //         canonical: 'https://www.jobhub.world/construction',
+    //         og: {
+    //             title: '🔨 2500+ Construction Jobs - Hiring Now | JobHub.world',
+    //             description:
+    //                 'Urgent hiring for construction projects: Civil Engineers (₹35K-1L), Masons (₹18K-40K), Electricians (₹20K-45K). Residential, Commercial & Infrastructure projects across India.',
+    //             image: 'https://www.jobhub.world/images/og/construction-jobs-og.jpg',
+    //             url: 'https://www.jobhub.world/construction',
+    //         },
+    //         twitter: {
+    //             title: 'Construction Jobs - 2500+ Openings @JobHub.world',
+    //             description:
+    //                 'Civil Engineers, Masons, Electricians & Construction Labor needed for projects across India. Daily/weekly payroll available. #ConstructionJobs #HiringNow',
+    //             image: 'https://www.jobhub.world/images/twitter/construction-jobs-card.jpg',
+    //         },
+    //     },
 
-        structuredData: [
-            {
-                "@context": "https://schema.org",
-                "@type": "JobPosting",
-                title: "Construction Worker",
-                description:
-                    "Various construction roles available including Civil Engineers, Masons, Electricians, Welders, and Laborers for ongoing residential and commercial projects.",
-                hiringOrganization: {
-                    "@type": "Organization",
-                    name: "JobHub.world",
-                    sameAs: "https://www.jobhub.world",
-                    logo: "https://www.jobhub.world/Jobhub%20logo.png"
-                },
-                industry: "Construction",
-                jobLocation: {
-                    "@type": "Place",
-                    address: {
-                        "@type": "PostalAddress",
-                        addressLocality: "Multiple Locations",
-                        addressRegion: "India",
-                        addressCountry: "IN"
-                    }
-                },
-                baseSalary: {
-                    "@type": "MonetaryAmount",
-                    currency: "INR",
-                    value: {
-                        "@type": "QuantitativeValue",
-                        minValue: 15000,
-                        maxValue: 100000,
-                        unitText: "MONTH"
-                    }
-                },
-                datePosted: "2025-07-23",
-                validThrough: "2025-10-23",
-                employmentType: ["FULL_TIME", "PART_TIME", "CONTRACTOR"],
-                experienceRequirements: {
-                    "@type": "OccupationalExperienceRequirements",
-                    monthsOfExperience: 0
-                }
-            },
-            {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 5,
-                        "name": "Construction Jobs",
-                        "item": "https://www.jobhub.world/construction"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 6,
-                        "name": "Jobs",
-                        "item": "https://www.jobhub.world/construction"
-                    }
-                ]
-            }
-        ]
-    },
+    //     structuredData: [
+    //         {
+    //             "@context": "https://schema.org",
+    //             "@type": "JobPosting",
+    //             title: "Construction Worker",
+    //             description:
+    //                 "Various construction roles available including Civil Engineers, Masons, Electricians, Welders, and Laborers for ongoing residential and commercial projects.",
+    //             hiringOrganization: {
+    //                 "@type": "Organization",
+    //                 name: "JobHub.world",
+    //                 sameAs: "https://www.jobhub.world",
+    //                 logo: "https://www.jobhub.world/Jobhub%20logo.png"
+    //             },
+    //             industry: "Construction",
+    //             jobLocation: {
+    //                 "@type": "Place",
+    //                 address: {
+    //                     "@type": "PostalAddress",
+    //                     addressLocality: "Multiple Locations",
+    //                     addressRegion: "India",
+    //                     addressCountry: "IN"
+    //                 }
+    //             },
+    //             baseSalary: {
+    //                 "@type": "MonetaryAmount",
+    //                 currency: "INR",
+    //                 value: {
+    //                     "@type": "QuantitativeValue",
+    //                     minValue: 15000,
+    //                     maxValue: 100000,
+    //                     unitText: "MONTH"
+    //                 }
+    //             },
+    //             datePosted: "2025-07-23",
+    //             validThrough: "2025-10-23",
+    //             employmentType: ["FULL_TIME", "PART_TIME", "CONTRACTOR"],
+    //             experienceRequirements: {
+    //                 "@type": "OccupationalExperienceRequirements",
+    //                 monthsOfExperience: 0
+    //             }
+    //         },
+    //         {
+    //             "@type": "BreadcrumbList",
+    //             "itemListElement": [
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 5,
+    //                     "name": "Construction Jobs",
+    //                     "item": "https://www.jobhub.world/construction"
+    //                 },
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 6,
+    //                     "name": "Jobs",
+    //                     "item": "https://www.jobhub.world/construction"
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
 
     // Front office profile and the all inside for static site
     'frontoffice': {
@@ -1137,264 +1137,1671 @@ export const jobsData = {
         ]
     },
 
-    // Housekeeping profile and the all inside for static site
-    'housekeeping': {
-        title: 'Housekeeping Jobs in Hotels, Hospitals & Offices',
+    'it-support': {
+    title: 'IT Support',
+    description:
+        'As an IT Support Specialist, you will be responsible for maintaining, troubleshooting, and resolving technical issues for our employees and clients. You will ensure smooth operations of hardware, software, and network systems, providing timely assistance and delivering excellent service.',
+    image: '/images/jobprofile/n-1.png',
+    insights: [
+        'Good understanding of computer hardware, operating systems, and networking.',
+        'On-site and remote support roles available.',
+        'Exposure to the latest IT tools and enterprise systems.',
+        'Training provided for freshers in IT fundamentals.',
+        'Opportunities for career growth in IT infrastructure and security.',
+    ],
+    tags: ['Technical Support', 'Networking', 'Troubleshooting', 'Helpdesk', 'System Administration'],
+    location: 'New Delhi, India',
+    salary: '₹20,000 - ₹30,000/month + incentives',
+
+    responsibilities: [
+        'Provide technical assistance to users via phone, email, or in-person.',
+        'Diagnose and resolve hardware, software, and network issues.',
+        'Install, configure, and update operating systems and applications.',
+        'Maintain records of IT issues and solutions in ticketing systems.',
+        'Coordinate with vendors for repair and replacement of faulty equipment.',
+    ],
+
+    qualifications: [
+        'Diploma/Graduate in IT, Computer Science, or related field.',
+        'Prior experience in IT support or helpdesk preferred.',
+        'Basic knowledge of Windows/Linux OS, MS Office, and networking concepts.',
+        'Good problem-solving skills and customer-focused mindset.',
+        'Ability to document technical solutions clearly.',
+    ],
+
+    benefits: [
+        'Performance-based bonuses.',
+        'Work-from-home support for remote troubleshooting tasks.',
+        'Paid leaves and weekly offs.',
+        'Company-sponsored IT certifications.',
+        'Continuous learning and skill development programs.',
+    ],
+
+    workType: 'Full-Time / Part-Time',
+    shift: 'Day shift (9 AM – 6 PM) | On-call support when required',
+
+    metadata: {
+        title: 'IT Support Jobs in Zirakpur, Chandigarh | Hiring Now - JobHub world',
         description:
-            'Find 900+ housekeeping jobs in hotels, hospitals, and corporate facilities. Hiring room attendants, cleaners, and supervisors with salaries up to ₹35K/month. Apply now for immediate joining and free accommodation at select jobs.',
-
-        image: '/images/jobprofile/10.png',
-        insights: [
-            '900+ active housekeeping roles across India.',
-            'Jobs available in hotels, hospitals, offices & commercial buildings.',
-            'Free meals, accommodation, and uniform for many hotel roles.',
-            'Openings for Room Attendants, Cleaners, Supervisors.',
-            'Freshers welcome — training provided at many facilities.',
-        ],
-        tags: ['Cleaner', 'Room Attendant', 'Housekeeping', 'Sanitation', 'Supervisor'],
-        location: 'Pan India (Hotel Chains, Hospitals, Offices)',
-        salary: '₹9,000 - ₹35,000/month',
-
-        responsibilities: [
-            'Ensure cleanliness of rooms, lobbies, restrooms, and facilities.',
-            'Change linens, replenish supplies, and manage laundry.',
-            'Operate cleaning machines and safely handle chemicals.',
-            'Follow safety and hygiene protocols at all times.',
-            'Support senior housekeeping staff and shift supervisors.',
-        ],
-
-        qualifications: [
-            'No formal education required; 8th/10th pass preferred.',
-            'Basic understanding of cleaning tools and hygiene.',
-            'Ability to work on feet for long hours.',
-            'Willingness to work in shifts, including weekends.',
-            'Fresher or experienced candidates both welcome.',
-        ],
-
-        benefits: [
-            'Free accommodation & meals at many hotel jobs.',
-            'Uniform and safety gear provided.',
-            'Weekly or monthly salary payouts.',
-            'On-the-job training for fresher candidates.',
-            'Growth path to housekeeping supervisor or facility manager roles.',
-        ],
-
-        workType: 'Full-Time / Part-Time',
-        shift: 'Rotational / Day & Night Shifts',
-
-        metadata: {
-            title: 'Housekeeping Jobs | Hotel & Facility Cleaning Roles - JobHub.world',
+            'Find 150+ IT Support Jobs in Zirakpur & Chandigarh. Apply for full-time, part-time, or remote IT helpdesk roles with salary up to ₹30,000. Free job posting for employers. Immediate hiring for freshers & experienced.',
+        keywords:
+            'IT support jobs Zirakpur, IT helpdesk jobs Chandigarh Mohali, system admin jobs Panchkula, desktop support work from home, hardware troubleshooting jobs, technical support roles, freshers IT jobs, network support vacancies',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/it-support',
+        og: {
+            title: 'Hiring 150+ IT Support Specialists in Zirakpur & Chandigarh | JobHub',
             description:
-                '🧹 900+ Housekeeping Jobs in Hotels, Hospitals & Offices | Room Attendant, Cleaner, Supervisor Roles | ₹10K-35K/month | Immediate Hiring | Apply Today!',
-            keywords:
-                'housekeeping jobs, hotel housekeeping jobs, cleaner jobs, room attendant jobs, housekeeping supervisor jobs, hospital cleaning jobs, office cleaning jobs, house maid jobs, facility maintenance jobs, sanitation worker jobs',
-            author: 'JobHub.world - India\'s Leading Hospitality Job Platform',
-            canonical: 'https://www.jobhub.world/housekeeping',
-            og: {
-                title: '🧽 900+ Housekeeping Jobs - Hotels/Hospitals Hiring | JobHub.world',
-                description:
-                    'Urgent hiring for housekeeping staff: Room Attendants (₹10K-20K), Cleaners (₹9K-18K), Supervisors (₹18K-35K). Free accommodation + meals at many hotels. Freshers welcome.',
-                image: 'https://www.jobhub.world/images/og/housekeeping-jobs-og.jpg',
-                url: 'https://www.jobhub.world/housekeeping',
-            },
-            twitter: {
-                title: 'Housekeeping Jobs - Hotel & Hospital Openings',
-                description:
-                    '900+ housekeeping positions available with accommodation benefits. #HousekeepingJobs #HotelJobs',
-                image: 'https://www.jobhub.world/images/twitter/housekeeping-jobs-card.jpg',
+                'Urgent hiring for IT Support specialists in Zirakpur & Chandigarh region. Full-time, part-time & remote opportunities available. Salary ₹20,000 - ₹30,000. Apply now or post jobs free!',
+            image:
+                '/images/jobprofile/n-1.png',
+            url: 'https://www.jobhub.world/jobprofiles/it-support',
+        },
+        twitter: {
+            title: 'IT Support Job Openings in Zirakpur (Chandigarh) - Apply Today',
+            description:
+                '150+ IT support vacancies in Zirakpur & Chandigarh region. Freshers & experienced candidates welcome. Immediate joining with training available.',
+            image:
+                '/images/jobprofile/n-1.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "IT Support Jobs in Zirakpur, Chandigarh",
+        description:
+            "Hiring IT support specialists for hardware, software, and network troubleshooting. Training provided. Full-time, part-time, and remote options available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Zirakpur, Chandigarh",
+                postalCode: "140603",
+                addressCountry: "IN",
             },
         },
-
-        structuredData: [
-            {
-                "@context": "https://schema.org",
-                "@type": "JobPosting",
-                "title": "Housekeeping Staff",
-                "description": "Maintaining cleanliness and hygiene standards in hotels, hospitals, and corporate facilities. Positions available for cleaners, room attendants, and supervisors.",
-                "hiringOrganization": {
-                    "@type": "Organization",
-                    "name": "JobHub.world",
-                    "sameAs": "https://www.jobhub.world",
-                    "logo": "https://www.jobhub.world/Jobhub%20logo.png"
-                },
-                "industry": "Hospitality",
-                "jobLocation": {
-                    "@type": "Place",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Multiple Locations",
-                        "addressRegion": "India",
-                        "addressCountry": "IN"
-                    }
-                },
-                "baseSalary": {
-                    "@type": "MonetaryAmount",
-                    "currency": "INR",
-                    "value": {
-                        "@type": "QuantitativeValue",
-                        "minValue": 9000,
-                        "maxValue": 35000,
-                        "unitText": "MONTH"
-                    }
-                },
-                "jobBenefits": "Accommodation, Meals, Uniform",
-                "datePosted": "2025-07-23",
-                "validThrough": "2025-10-23",
-                "employmentType": ["FULL_TIME", "PART_TIME"],
-                "experienceRequirements": {
-                    "@type": "OccupationalExperienceRequirements",
-                    "monthsOfExperience": 0
-                }
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME", "PART_TIME", "CONTRACTOR"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 20000,
+                maxValue: 30000,
+                unitText: "MONTH",
             },
-            {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Hospitality Jobs",
-                        "item": "https://www.jobhub.world/housekeeping"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Housekeeping Jobs",
-                        "item": "https://www.jobhub.world/housekeeping"
-                    }
-                ]
-            }
-        ]
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
     },
+},
+
+
+    'business-development-executive': {
+    title: 'Business Development Executive',
+    description:
+        'As a Business Development Executive, you will be responsible for identifying new business opportunities, building client relationships, and driving revenue growth. This role requires excellent communication, negotiation skills, and a proactive approach to achieving sales targets.',
+    image: '/images/jobprofile/n-2.png',
+    insights: [
+        'Strong interpersonal and presentation skills are essential.',
+        'Opportunities to work with diverse industries and clients.',
+        'Performance-driven role with attractive incentives.',
+        'Training and mentorship provided for freshers.',
+        'Career growth into managerial and leadership roles.',
+    ],
+    tags: ['Business Development', 'Sales', 'Client Acquisition', 'Negotiation', 'CRM Tools'],
+    location: 'New Delhi, India',
+    salary: '₹25,000 - ₹40,000/month + performance incentives',
+
+    responsibilities: [
+        'Identify and research potential clients and business opportunities.',
+        'Develop and maintain strong relationships with clients.',
+        'Pitch products or services to prospective clients and close deals.',
+        'Prepare proposals, presentations, and sales reports.',
+        'Collaborate with internal teams to ensure client satisfaction.',
+    ],
+
+    qualifications: [
+        'Graduate in Business, Marketing, or related field.',
+        'Prior experience in sales or business development preferred.',
+        'Excellent communication and persuasive skills.',
+        'Ability to work independently and meet sales targets.',
+        'Basic computer skills (MS Office, CRM software).',
+    ],
+
+    benefits: [
+        'Attractive incentive and bonus structures.',
+        'Opportunities for rapid career advancement.',
+        'Paid leaves, weekly offs, and festival holidays.',
+        'Skill development and leadership training programs.',
+        'Travel and client engagement opportunities.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'Business Development Executive Jobs in Zirakpur, Chandigarh | Hiring Now - JobHub world',
+        description:
+            'Find 100+ Business Development Executive Jobs in Zirakpur & Chandigarh. Apply for full-time roles with salary up to ₹40,000 plus incentives. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'business development jobs Zirakpur, sales executive jobs Chandigarh Mohali, BDE vacancies Panchkula, client acquisition jobs, corporate sales jobs, business growth manager, fresher BDE jobs',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/business-development-executive',
+        og: {
+            title: 'Hiring Business Development Executives in Zirakpur & Chandigarh | JobHub',
+            description:
+                'Urgent hiring for Business Development Executives. Salary ₹25,000 - ₹40,000 plus incentives. Excellent career growth opportunities. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-2.png',
+            url: 'https://www.jobhub.world/jobprofiles/business-development-executive',
+        },
+        twitter: {
+            title: 'Business Development Executive Job Openings in Zirakpur (Chandigarh) - Apply Today',
+            description:
+                '100+ BDE vacancies in Zirakpur & Chandigarh region. Freshers and experienced candidates welcome. Attractive incentives and career growth opportunities.',
+            image:
+                '/images/jobprofile/n-2.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "Business Development Executive Jobs in Zirakpur, Chandigarh",
+        description:
+            "Hiring Business Development Executives to drive sales and acquire clients. Training provided. Excellent growth opportunities with performance incentives.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Zirakpur, Chandigarh",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 25000,
+                maxValue: 40000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    'hr-executive': {
+    title: 'HR Executive',
+    description:
+        'As an HR Executive, you will play a key role in managing recruitment, employee relations, and HR operations. You will help build a positive workplace culture, ensure smooth onboarding, and maintain compliance with company policies and labor laws.',
+    image: '/images/jobprofile/n-3.png',
+    insights: [
+        'Strong communication and organizational skills are essential.',
+        'Exposure to end-to-end recruitment and employee engagement activities.',
+        'Opportunities to work with senior management on strategic HR initiatives.',
+        'Training provided for freshers in HR processes and tools.',
+        'Career growth into HR Manager and leadership positions.',
+    ],
+    tags: ['Human Resources', 'Recruitment', 'Onboarding', 'Payroll', 'Employee Engagement'],
+    location: 'New Delhi, India',
+    salary: '₹22,000 - ₹35,000/month + performance incentives',
+
+    responsibilities: [
+        'Manage recruitment processes including sourcing, screening, and interviewing candidates.',
+        'Coordinate onboarding and induction programs for new hires.',
+        'Maintain employee records and handle payroll-related queries.',
+        'Support employee engagement, training, and performance reviews.',
+        'Ensure compliance with labor laws, policies, and HR documentation.',
+    ],
+
+    qualifications: [
+        'Graduate in HR, Business Administration, or related field.',
+        'Prior experience in HR or recruitment preferred.',
+        'Good understanding of HR software and MS Office tools.',
+        'Excellent interpersonal and problem-solving skills.',
+        'Ability to maintain confidentiality and handle sensitive information.',
+    ],
+
+    benefits: [
+        'Performance-based bonuses and incentives.',
+        'Paid leaves, festival holidays, and weekly offs.',
+        'Professional development and HR certification sponsorship.',
+        'Exposure to strategic HR projects and leadership mentorship.',
+        'Work-life balance with supportive workplace policies.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'HR Executive Jobs in Zirakpur, Chandigarh | Hiring Now - JobHub world',
+        description:
+            'Find 120+ HR Executive Jobs in Zirakpur & Chandigarh. Apply for full-time HR and recruitment roles with salary up to ₹35,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'HR executive jobs Zirakpur, HR recruitment jobs Chandigarh Mohali, HR fresher jobs Panchkula, talent acquisition jobs, payroll executive jobs, human resource vacancies',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/hr-executive',
+        og: {
+            title: 'Hiring HR Executives in Zirakpur & Chandigarh | JobHub',
+            description:
+                'Urgent hiring for HR Executives. Salary ₹22,000 - ₹35,000 plus incentives. Freshers welcome with training provided. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-3.png',
+            url: 'https://www.jobhub.world/jobprofiles/hr-executive',
+        },
+        twitter: {
+            title: 'HR Executive Job Openings in Zirakpur (Chandigarh) - Apply Today',
+            description:
+                '120+ HR executive vacancies in Zirakpur & Chandigarh region. Freshers and experienced candidates welcome. Attractive incentives and career growth opportunities.',
+            image:
+                '/images/jobprofile/n-3.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "HR Executive Jobs in Zirakpur, Chandigarh",
+        description:
+            "Hiring HR Executives to manage recruitment, onboarding, and HR operations. Training provided. Excellent career growth opportunities in human resources.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Zirakpur, Chandigarh",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 22000,
+                maxValue: 35000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    'computer-operator': {
+    title: 'Computer Operator',
+    description:
+        'As a Computer Operator, you will handle daily data entry, system operations, and ensure smooth functioning of office IT systems. You will maintain records, update databases, and provide basic troubleshooting support when required.',
+    image: '/images/jobprofile/n-4.png',
+    insights: [
+        'Basic computer knowledge (MS Office, email) is mandatory.',
+        'Freshers and experienced candidates are welcome.',
+        'Accuracy and attention to detail are highly valued.',
+        'Training will be provided on office systems and tools.',
+        'Opportunities for growth into administrative and IT support roles.',
+    ],
+    tags: ['Data Entry', 'MS Office', 'System Operation', 'Record Keeping', 'Typing'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹15,000 - ₹22,000/month',
+
+    responsibilities: [
+        'Perform accurate data entry and record maintenance.',
+        'Operate office software and manage database updates.',
+        'Prepare daily/weekly reports as required.',
+        'Assist with printing, scanning, and document management tasks.',
+        'Provide basic troubleshooting support for office equipment and systems.',
+    ],
+
+    qualifications: [
+        '12th pass or Graduate in any discipline.',
+        'Basic knowledge of computers and typing skills.',
+        'Experience in data entry or administrative roles preferred.',
+        'Ability to work with MS Office (Word, Excel, PowerPoint).',
+        'Good organizational and multitasking abilities.',
+    ],
+
+    benefits: [
+        'Fixed working hours with paid leaves.',
+        'Training and skill development programs.',
+        'Supportive work environment with growth opportunities.',
+        'Weekly offs and festival holidays.',
+        'Employee recognition and performance rewards.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'Computer Operator Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 200+ Computer Operator Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹22,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'computer operator jobs Chandigarh Mohali, data entry jobs Punjab, office assistant jobs, back office jobs, fresher computer operator vacancies, typing jobs',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/computer-operator',
+        og: {
+            title: 'Hiring Computer Operators in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for Computer Operators. Salary ₹15,000 - ₹22,000. Freshers welcome with training provided. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-4.png',
+            url: 'https://www.jobhub.world/jobprofiles/computer-operator',
+        },
+        twitter: {
+            title: 'Computer Operator Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '200+ computer operator vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-4.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "Computer Operator Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring computer operators for data entry, system operation, and administrative support. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 15000,
+                maxValue: 22000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    'digital-marketing': {
+    title: 'Digital Marketing Executive',
+    description:
+        'As a Digital Marketing Executive, you will be responsible for planning and executing online marketing campaigns, managing social media, running paid ads, and analyzing performance to drive traffic and leads. You will collaborate with the content and design teams to ensure brand consistency and optimize campaigns for maximum ROI.',
+    image: '/images/jobprofile/n-5.png',
+    insights: [
+        'Knowledge of SEO, SEM, and social media marketing is essential.',
+        'Hands-on experience with Google Ads, Meta Ads, or similar platforms preferred.',
+        'Ability to analyze campaign data and optimize for better results.',
+        'Freshers with certification in digital marketing can also apply.',
+        'Opportunities for rapid growth into senior marketing roles.',
+    ],
+    tags: ['SEO', 'Google Ads', 'Meta Ads', 'Social Media', 'Content Marketing', 'Analytics'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹20,000 - ₹35,000/month',
+
+    responsibilities: [
+        'Plan and execute digital marketing campaigns across search, social, and display.',
+        'Manage SEO efforts including keyword research and on-page optimization.',
+        'Run paid campaigns on Google Ads, Facebook/Instagram Ads, and other platforms.',
+        'Track and analyze campaign performance using analytics tools.',
+        'Collaborate with designers and content creators to deliver effective creatives.',
+        'Stay updated with the latest digital marketing trends and technologies.',
+    ],
+
+    qualifications: [
+        'Graduate in Marketing, Business, or related field.',
+        'Certification in Digital Marketing (Google, HubSpot, etc.) preferred.',
+        'Knowledge of SEO tools (Ahrefs, SEMrush) and analytics (Google Analytics).',
+        'Strong understanding of social media platforms and ad managers.',
+        'Excellent communication and analytical skills.',
+    ],
+
+    benefits: [
+        'Competitive salary with performance bonuses.',
+        'Training and skill enhancement programs.',
+        'Supportive work culture with rapid growth opportunities.',
+        'Weekly offs and paid leaves.',
+        'Employee recognition programs and team events.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'Digital Marketing Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 150+ Digital Marketing Executive Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹35,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'digital marketing jobs Chandigarh Mohali, SEO jobs Punjab, Google Ads jobs, social media marketing vacancies, fresher digital marketing executive, online marketing careers',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/digital-marketing',
+        og: {
+            title: 'Hiring Digital Marketing Executives in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for Digital Marketing Executives. Salary ₹20,000 - ₹35,000. Freshers with certifications welcome. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-5.png',
+            url: 'https://www.jobhub.world/jobprofiles/digital-marketing',
+        },
+        twitter: {
+            title: 'Digital Marketing Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '150+ digital marketing vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-5.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "Digital Marketing Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring digital marketing executives for SEO, paid ads, and social media campaigns. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 20000,
+                maxValue: 35000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    'it-technician': {
+    title: 'IT Technician',
+    description:
+        'As an IT Technician, you will be responsible for maintaining computer systems, troubleshooting hardware and software issues, and providing technical support to ensure seamless IT operations. You will install and configure devices, monitor networks, and assist employees with day-to-day technical requirements.',
+    image: '/images/jobprofile/n-6.png',
+    insights: [
+        'Hands-on knowledge of computer hardware, networks, and operating systems is required.',
+        'Experience with system troubleshooting and installation preferred.',
+        'Ability to work under pressure and resolve issues quickly.',
+        'Freshers with strong technical knowledge can also apply.',
+        'Growth opportunities into system administration and IT management roles.',
+    ],
+    tags: ['Technical Support', 'Networking', 'Hardware Maintenance', 'System Administration', 'Troubleshooting'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹18,000 - ₹30,000/month',
+
+    responsibilities: [
+        'Install, configure, and maintain computer systems and office devices.',
+        'Diagnose and troubleshoot software, hardware, and network problems.',
+        'Assist employees with IT-related issues and provide timely solutions.',
+        'Monitor system performance and ensure data security.',
+        'Maintain IT inventory, records, and documentation.',
+        'Support regular system upgrades and preventive maintenance.',
+    ],
+
+    qualifications: [
+        'Diploma/Graduate in IT, Computer Science, or related field.',
+        'Knowledge of Windows/Linux operating systems and basic networking.',
+        'Experience in IT support or hardware troubleshooting preferred.',
+        'Ability to handle technical issues independently and efficiently.',
+        'Strong problem-solving and communication skills.',
+    ],
+
+    benefits: [
+        'Stable full-time job with growth opportunities.',
+        'Training and certification support for skill upgrades.',
+        'Friendly and collaborative work environment.',
+        'Weekly offs and paid leaves.',
+        'Employee recognition and performance incentives.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'IT Technician Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 100+ IT Technician Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹30,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'IT technician jobs Chandigarh Mohali, computer hardware jobs Punjab, network support vacancies, fresher IT technician roles, system maintenance jobs',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/it-technician',
+        og: {
+            title: 'Hiring IT Technicians in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for IT Technicians. Salary ₹18,000 - ₹30,000. Freshers with technical knowledge welcome. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-6.png',
+            url: 'https://www.jobhub.world/jobprofiles/it-technician',
+        },
+        twitter: {
+            title: 'IT Technician Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '100+ IT technician vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-6.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "IT Technician Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring IT technicians for computer maintenance, troubleshooting, and technical support. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 18000,
+                maxValue: 30000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    'php-developer': {
+    title: 'PHP Developer',
+    description:
+        'As a PHP Developer, you will be responsible for developing dynamic web applications, maintaining existing projects, and ensuring optimized performance of backend systems. You will work closely with designers and front-end developers to deliver secure, scalable, and user-friendly solutions.',
+    image: '/images/jobprofile/n-7.png',
+    insights: [
+        'Strong knowledge of PHP, MySQL, and web frameworks like Laravel or CodeIgniter is essential.',
+        'Experience with API integration, version control (Git), and debugging tools preferred.',
+        'Understanding of front-end technologies (HTML, CSS, JavaScript) is a plus.',
+        'Freshers with solid coding knowledge or certification in PHP can also apply.',
+        'Opportunities to grow into senior developer or full-stack developer roles.',
+    ],
+    tags: ['PHP', 'Laravel', 'CodeIgniter', 'MySQL', 'API Development', 'Backend Development'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹25,000 - ₹45,000/month',
+
+    responsibilities: [
+        'Develop and maintain dynamic, database-driven websites and applications.',
+        'Write clean, secure, and optimized PHP code with proper documentation.',
+        'Work with MySQL databases to design and manage schemas.',
+        'Integrate third-party APIs and services into applications.',
+        'Collaborate with front-end developers to deliver seamless user experiences.',
+        'Debug, test, and optimize applications for speed and scalability.',
+        'Stay updated with the latest PHP frameworks and technologies.',
+    ],
+
+    qualifications: [
+        'Graduate in Computer Science, IT, or related field.',
+        'Proficiency in PHP and experience with Laravel or CodeIgniter framework.',
+        'Knowledge of database design (MySQL) and query optimization.',
+        'Understanding of MVC architecture and OOP concepts.',
+        'Familiarity with Git or other version control tools.',
+        'Good problem-solving and debugging skills.',
+    ],
+
+    benefits: [
+        'Competitive salary with performance-based incentives.',
+        'Training programs and opportunities for career advancement.',
+        'Collaborative and developer-friendly environment.',
+        'Weekly offs, paid leaves, and flexible work culture.',
+        'Recognition programs for exceptional performance.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'PHP Developer Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 120+ PHP Developer Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹45,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'php developer jobs Chandigarh Mohali, laravel developer jobs Punjab, backend developer vacancies, fresher php developer roles, web development jobs',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/php-developer',
+        og: {
+            title: 'Hiring PHP Developers in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for PHP Developers. Salary ₹25,000 - ₹45,000. Freshers with coding knowledge welcome. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-7.png',
+            url: 'https://www.jobhub.world/jobprofiles/php-developer',
+        },
+        twitter: {
+            title: 'PHP Developer Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '120+ PHP developer vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-7.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "PHP Developer Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring PHP developers for web application development, API integration, and backend solutions. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 25000,
+                maxValue: 45000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    
+    'admin': {
+    title: 'Admin Executive',
+    description:
+        'As an Admin Executive, you will manage daily office operations, coordinate with teams, handle documentation, and ensure smooth functioning of administrative tasks. You will support management in planning, organizing, and implementing policies to maintain an efficient workplace.',
+    image: '/images/jobprofile/n-8.png',
+    insights: [
+        'Strong organizational and multitasking skills are essential.',
+        'Experience in office administration or coordination preferred.',
+        'Knowledge of MS Office tools and basic documentation handling required.',
+        'Freshers with good communication skills can also apply.',
+        'Scope to grow into senior administrative or operations roles.',
+    ],
+    tags: ['Office Administration', 'Coordination', 'Documentation', 'Record Keeping', 'Communication'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹20,000 - ₹35,000/month',
+
+    responsibilities: [
+        'Manage day-to-day office operations and ensure smooth workflow.',
+        'Maintain and organize records, files, and documents.',
+        'Coordinate with departments for administrative support.',
+        'Assist in planning meetings, preparing reports, and handling correspondence.',
+        'Manage inventory of office supplies and ensure timely procurement.',
+        'Support HR and management in implementing policies and procedures.',
+    ],
+
+    qualifications: [
+        'Graduate in any discipline (Business Administration preferred).',
+        'Proficiency in MS Office (Word, Excel, PowerPoint).',
+        'Experience in office administration or coordination roles preferred.',
+        'Strong organizational and communication skills.',
+        'Ability to handle multiple tasks efficiently and maintain confidentiality.',
+    ],
+
+    benefits: [
+        'Stable full-time role with opportunities for career growth.',
+        'Supportive and collaborative work environment.',
+        'Training and skill development programs.',
+        'Weekly offs, paid leaves, and festival holidays.',
+        'Employee recognition and performance incentives.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'Admin Executive Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 150+ Admin Executive Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹35,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'admin executive jobs Chandigarh Mohali, office administration jobs Punjab, office coordinator roles, fresher admin jobs, operations support jobs',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/admin',
+        og: {
+            title: 'Hiring Admin Executives in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for Admin Executives. Salary ₹20,000 - ₹35,000. Freshers welcome. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-8.png',
+            url: 'https://www.jobhub.world/jobprofiles/admin',
+        },
+        twitter: {
+            title: 'Admin Executive Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '150+ admin executive vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-8.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "Admin Executive Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring Admin Executives for managing office operations, documentation, and coordination tasks. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 20000,
+                maxValue: 35000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    'helpdesk': {
+    title: 'Helpdesk Executive',
+    description:
+        'As a Helpdesk Executive, you will be the first point of contact for technical or service-related issues. You will handle user queries, troubleshoot problems, escalate unresolved cases, and ensure timely resolution to maintain smooth business operations.',
+    image: '/images/jobprofile/n-9.png',
+    insights: [
+        'Strong communication and problem-solving skills are essential.',
+        'Experience in technical support, customer service, or IT helpdesk preferred.',
+        'Knowledge of basic computer systems, networking, or ticketing tools is an advantage.',
+        'Freshers with good technical aptitude and customer-handling skills can also apply.',
+        'Opportunities to grow into IT support, system administration, or customer success roles.',
+    ],
+    tags: ['Helpdesk Support', 'Customer Service', 'Technical Support', 'Troubleshooting', 'Ticketing'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹18,000 - ₹32,000/month',
+
+    responsibilities: [
+        'Act as the first point of contact for technical queries and support requests.',
+        'Diagnose and resolve software, hardware, and network issues where possible.',
+        'Log, track, and manage issues using a helpdesk/ticketing system.',
+        'Escalate unresolved issues to relevant teams for further action.',
+        'Provide clear updates and maintain communication with end users.',
+        'Assist with installation, configuration, or basic IT tasks when required.',
+    ],
+
+    qualifications: [
+        'Graduate or Diploma in any discipline (IT background preferred).',
+        'Basic understanding of computer systems, networks, and troubleshooting.',
+        'Experience in helpdesk or technical support roles preferred.',
+        'Good communication skills in English and Hindi/Punjabi.',
+        'Ability to work under pressure and manage multiple queries efficiently.',
+    ],
+
+    benefits: [
+        'Stable full-time job with skill enhancement opportunities.',
+        'Training and certification support for career growth.',
+        'Friendly and supportive work environment.',
+        'Weekly offs, paid leaves, and festival holidays.',
+        'Performance-based incentives and recognition programs.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'Helpdesk Executive Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 100+ Helpdesk Executive Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹32,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'helpdesk executive jobs Chandigarh Mohali, IT support jobs Punjab, technical support vacancies, fresher helpdesk roles, customer service jobs',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/helpdesk',
+        og: {
+            title: 'Hiring Helpdesk Executives in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for Helpdesk Executives. Salary ₹18,000 - ₹32,000. Freshers welcome. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-9.png',
+            url: 'https://www.jobhub.world/jobprofiles/helpdesk',
+        },
+        twitter: {
+            title: 'Helpdesk Executive Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '100+ helpdesk executive vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-9.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "Helpdesk Executive Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring Helpdesk Executives for technical support, issue resolution, and IT coordination. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 18000,
+                maxValue: 32000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    'visa-counselor': {
+    title: 'Visa Counselor',
+    description:
+        'As a Visa Counselor, you will guide students and professionals through the process of visa applications for study, work, or travel abroad. You will provide accurate advice, handle documentation, coordinate with embassies or consulates, and ensure a smooth and timely application process.',
+    image: '/images/jobprofile/n-10.png',
+    insights: [
+        'Strong knowledge of visa procedures, embassy requirements, and documentation processes is preferred.',
+        'Excellent communication and interpersonal skills are essential.',
+        'Experience in overseas education consultancy or immigration services is an added advantage.',
+        'Freshers with good counseling and convincing skills can also apply.',
+        'Opportunities to grow into senior counselor, branch head, or visa manager roles.',
+    ],
+    tags: ['Visa Guidance', 'Counseling', 'Documentation', 'Overseas Education', 'Immigration Support'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹20,000 - ₹40,000/month',
+
+    responsibilities: [
+        'Counsel students and clients regarding visa processes, requirements, and eligibility.',
+        'Assist with preparing, verifying, and submitting visa documentation.',
+        'Stay updated with the latest visa rules, embassy guidelines, and immigration policies.',
+        'Coordinate with universities, embassies, and visa authorities as required.',
+        'Provide regular updates to clients and maintain records of applications.',
+        'Achieve monthly counseling and conversion targets.',
+    ],
+
+    qualifications: [
+        'Graduate in any discipline (International Relations or related field preferred).',
+        'Experience in visa counseling, immigration services, or overseas education is a plus.',
+        'Good communication and presentation skills in English and Hindi/Punjabi.',
+        'Ability to handle multiple cases and meet deadlines efficiently.',
+        'Basic knowledge of MS Office and documentation processes.',
+    ],
+
+    benefits: [
+        'Stable full-time role with career progression opportunities.',
+        'Training support to enhance visa and immigration knowledge.',
+        'Supportive and collaborative workplace environment.',
+        'Weekly offs, paid leaves, and performance-based incentives.',
+        'Recognition programs for top performers.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'Visa Counselor Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 100+ Visa Counselor Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹40,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'visa counselor jobs Chandigarh Mohali, overseas education counselor jobs Punjab, immigration consultant roles, fresher visa counseling jobs, student visa support jobs',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/visa-counselor',
+        og: {
+            title: 'Hiring Visa Counselors in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for Visa Counselors. Salary ₹20,000 - ₹40,000. Freshers welcome. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-10.png',
+            url: 'https://www.jobhub.world/jobprofiles/visa-counselor',
+        },
+        twitter: {
+            title: 'Visa Counselor Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '100+ visa counselor vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-10.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "Visa Counselor Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring Visa Counselors for student and work visa guidance, documentation, and counseling. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 20000,
+                maxValue: 40000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    'system-admin': {
+    title: 'System Administrator',
+    description:
+        'As a System Administrator, you will be responsible for maintaining, configuring, and ensuring reliable operation of computer systems, servers, and networks. You will troubleshoot technical issues, manage user access, monitor system performance, and implement security measures to protect organizational data.',
+    image: '/images/jobprofile/n-11.png',
+    insights: [
+        'Strong understanding of Windows/Linux server administration is essential.',
+        'Experience with system backups, security patches, and monitoring tools preferred.',
+        'Knowledge of networking (LAN, WAN, firewalls) and cloud platforms is an advantage.',
+        'Freshers with strong technical aptitude and IT certifications can also apply.',
+        'Opportunities to grow into senior system admin or IT manager roles.',
+    ],
+    tags: ['System Administration', 'Network Management', 'Server Maintenance', 'IT Security', 'Troubleshooting'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹25,000 - ₹50,000/month',
+
+    responsibilities: [
+        'Install, configure, and maintain servers, networks, and computer systems.',
+        'Monitor system performance and troubleshoot issues to ensure high availability.',
+        'Implement security protocols, firewalls, and data protection measures.',
+        'Manage user accounts, access permissions, and authentication policies.',
+        'Perform routine backups, updates, and disaster recovery planning.',
+        'Document IT infrastructure and maintain technical records.',
+        'Collaborate with IT teams to plan and execute system upgrades.',
+    ],
+
+    qualifications: [
+        'Graduate in Computer Science, IT, or related field.',
+        'Certifications like CCNA, MCSA, RHCE, or CompTIA Server+ are an advantage.',
+        'Experience in system administration or IT support roles preferred.',
+        'Good problem-solving skills and attention to detail.',
+        'Ability to work under pressure and meet deadlines.',
+    ],
+
+    benefits: [
+        'Stable full-time role with clear career advancement.',
+        'Opportunities for IT certifications and skill development.',
+        'Supportive workplace environment with modern infrastructure.',
+        'Weekly offs, paid leaves, and performance-based incentives.',
+        'Recognition programs for technical achievements.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'System Administrator Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 100+ System Administrator Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹50,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'system administrator jobs Chandigarh Mohali, IT admin jobs Punjab, server admin vacancies, fresher system admin roles, network admin jobs',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/system-admin',
+        og: {
+            title: 'Hiring System Administrators in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for System Administrators. Salary ₹25,000 - ₹50,000. Freshers welcome. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-11.png',
+            url: 'https://www.jobhub.world/jobprofiles/system-admin',
+        },
+        twitter: {
+            title: 'System Administrator Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '100+ system administrator vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-11.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "System Administrator Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring System Administrators for managing servers, networks, and IT infrastructure. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 25000,
+                maxValue: 50000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    'seo-specialist': {
+    title: 'SEO Specialist',
+    description:
+        'As an SEO Specialist, you will be responsible for developing and implementing strategies to improve website rankings, drive organic traffic, and optimize overall online visibility. You will work with content creators, developers, and marketers to ensure all digital assets are optimized for search engines.',
+    image: '/images/jobprofile/n-12.png',
+    insights: [
+        'Strong understanding of SEO best practices, keyword research, and Google algorithms.',
+        'Experience with SEO tools like Google Analytics, Search Console, SEMrush, or Ahrefs is preferred.',
+        'Ability to analyze website performance and recommend improvements.',
+        'Freshers with strong digital marketing knowledge can also apply.',
+        'Opportunities to grow into SEO Manager or Digital Marketing Lead roles.',
+    ],
+    tags: ['SEO', 'Keyword Research', 'On-Page Optimization', 'Link Building', 'Digital Marketing'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹20,000 - ₹45,000/month',
+
+    responsibilities: [
+        'Conduct keyword research and implement on-page and off-page SEO strategies.',
+        'Optimize website structure, content, and metadata to improve rankings.',
+        'Monitor website traffic, rankings, and performance metrics using SEO tools.',
+        'Collaborate with content writers to develop SEO-friendly content.',
+        'Perform technical SEO audits and resolve website issues affecting search visibility.',
+        'Stay updated with the latest search engine algorithms and digital marketing trends.',
+        'Prepare performance reports and suggest data-driven improvements.',
+    ],
+
+    qualifications: [
+        'Graduate in Marketing, Communications, IT, or related field.',
+        'Certifications in SEO or Digital Marketing are an advantage.',
+        'Experience in SEO or digital marketing roles preferred.',
+        'Strong analytical skills and attention to detail.',
+        'Basic knowledge of HTML, CSS, and CMS platforms like WordPress.',
+    ],
+
+    benefits: [
+        'Stable full-time role with clear career progression.',
+        'Opportunities to learn advanced SEO tools and techniques.',
+        'Supportive work culture with exposure to diverse projects.',
+        'Weekly offs, paid leaves, and performance-based incentives.',
+        'Recognition programs for outstanding performance.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'SEO Specialist Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 100+ SEO Specialist Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹45,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'seo jobs Chandigarh Mohali, digital marketing jobs Punjab, fresher SEO roles, on-page off-page SEO jobs, search engine optimization careers',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/seo-specialist',
+        og: {
+            title: 'Hiring SEO Specialists in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for SEO Specialists. Salary ₹20,000 - ₹45,000. Freshers welcome. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-12.png',
+            url: 'https://www.jobhub.world/jobprofiles/seo-specialist',
+        },
+        twitter: {
+            title: 'SEO Specialist Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '100+ SEO Specialist vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-12.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "SEO Specialist Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring SEO Specialists for website optimization, keyword research, and ranking improvement. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 20000,
+                maxValue: 45000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
+    
+    // Housekeeping profile and the all inside for static site
+    // 'housekeeping': {
+    //     title: 'Housekeeping Jobs in Hotels, Hospitals & Offices',
+    //     description:
+    //         'Find 900+ housekeeping jobs in hotels, hospitals, and corporate facilities. Hiring room attendants, cleaners, and supervisors with salaries up to ₹35K/month. Apply now for immediate joining and free accommodation at select jobs.',
+
+    //     image: '/images/jobprofile/10.png',
+    //     insights: [
+    //         '900+ active housekeeping roles across India.',
+    //         'Jobs available in hotels, hospitals, offices & commercial buildings.',
+    //         'Free meals, accommodation, and uniform for many hotel roles.',
+    //         'Openings for Room Attendants, Cleaners, Supervisors.',
+    //         'Freshers welcome — training provided at many facilities.',
+    //     ],
+    //     tags: ['Cleaner', 'Room Attendant', 'Housekeeping', 'Sanitation', 'Supervisor'],
+    //     location: 'Pan India (Hotel Chains, Hospitals, Offices)',
+    //     salary: '₹9,000 - ₹35,000/month',
+
+    //     responsibilities: [
+    //         'Ensure cleanliness of rooms, lobbies, restrooms, and facilities.',
+    //         'Change linens, replenish supplies, and manage laundry.',
+    //         'Operate cleaning machines and safely handle chemicals.',
+    //         'Follow safety and hygiene protocols at all times.',
+    //         'Support senior housekeeping staff and shift supervisors.',
+    //     ],
+
+    //     qualifications: [
+    //         'No formal education required; 8th/10th pass preferred.',
+    //         'Basic understanding of cleaning tools and hygiene.',
+    //         'Ability to work on feet for long hours.',
+    //         'Willingness to work in shifts, including weekends.',
+    //         'Fresher or experienced candidates both welcome.',
+    //     ],
+
+    //     benefits: [
+    //         'Free accommodation & meals at many hotel jobs.',
+    //         'Uniform and safety gear provided.',
+    //         'Weekly or monthly salary payouts.',
+    //         'On-the-job training for fresher candidates.',
+    //         'Growth path to housekeeping supervisor or facility manager roles.',
+    //     ],
+
+    //     workType: 'Full-Time / Part-Time',
+    //     shift: 'Rotational / Day & Night Shifts',
+
+    //     metadata: {
+    //         title: 'Housekeeping Jobs | Hotel & Facility Cleaning Roles - JobHub.world',
+    //         description:
+    //             '🧹 900+ Housekeeping Jobs in Hotels, Hospitals & Offices | Room Attendant, Cleaner, Supervisor Roles | ₹10K-35K/month | Immediate Hiring | Apply Today!',
+    //         keywords:
+    //             'housekeeping jobs, hotel housekeeping jobs, cleaner jobs, room attendant jobs, housekeeping supervisor jobs, hospital cleaning jobs, office cleaning jobs, house maid jobs, facility maintenance jobs, sanitation worker jobs',
+    //         author: 'JobHub.world - India\'s Leading Hospitality Job Platform',
+    //         canonical: 'https://www.jobhub.world/housekeeping',
+    //         og: {
+    //             title: '🧽 900+ Housekeeping Jobs - Hotels/Hospitals Hiring | JobHub.world',
+    //             description:
+    //                 'Urgent hiring for housekeeping staff: Room Attendants (₹10K-20K), Cleaners (₹9K-18K), Supervisors (₹18K-35K). Free accommodation + meals at many hotels. Freshers welcome.',
+    //             image: 'https://www.jobhub.world/images/og/housekeeping-jobs-og.jpg',
+    //             url: 'https://www.jobhub.world/housekeeping',
+    //         },
+    //         twitter: {
+    //             title: 'Housekeeping Jobs - Hotel & Hospital Openings',
+    //             description:
+    //                 '900+ housekeeping positions available with accommodation benefits. #HousekeepingJobs #HotelJobs',
+    //             image: 'https://www.jobhub.world/images/twitter/housekeeping-jobs-card.jpg',
+    //         },
+    //     },
+
+    //     structuredData: [
+    //         {
+    //             "@context": "https://schema.org",
+    //             "@type": "JobPosting",
+    //             "title": "Housekeeping Staff",
+    //             "description": "Maintaining cleanliness and hygiene standards in hotels, hospitals, and corporate facilities. Positions available for cleaners, room attendants, and supervisors.",
+    //             "hiringOrganization": {
+    //                 "@type": "Organization",
+    //                 "name": "JobHub.world",
+    //                 "sameAs": "https://www.jobhub.world",
+    //                 "logo": "https://www.jobhub.world/Jobhub%20logo.png"
+    //             },
+    //             "industry": "Hospitality",
+    //             "jobLocation": {
+    //                 "@type": "Place",
+    //                 "address": {
+    //                     "@type": "PostalAddress",
+    //                     "addressLocality": "Multiple Locations",
+    //                     "addressRegion": "India",
+    //                     "addressCountry": "IN"
+    //                 }
+    //             },
+    //             "baseSalary": {
+    //                 "@type": "MonetaryAmount",
+    //                 "currency": "INR",
+    //                 "value": {
+    //                     "@type": "QuantitativeValue",
+    //                     "minValue": 9000,
+    //                     "maxValue": 35000,
+    //                     "unitText": "MONTH"
+    //                 }
+    //             },
+    //             "jobBenefits": "Accommodation, Meals, Uniform",
+    //             "datePosted": "2025-07-23",
+    //             "validThrough": "2025-10-23",
+    //             "employmentType": ["FULL_TIME", "PART_TIME"],
+    //             "experienceRequirements": {
+    //                 "@type": "OccupationalExperienceRequirements",
+    //                 "monthsOfExperience": 0
+    //             }
+    //         },
+    //         {
+    //             "@type": "BreadcrumbList",
+    //             "itemListElement": [
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 1,
+    //                     "name": "Hospitality Jobs",
+    //                     "item": "https://www.jobhub.world/housekeeping"
+    //                 },
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 2,
+    //                     "name": "Housekeeping Jobs",
+    //                     "item": "https://www.jobhub.world/housekeeping"
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
 
     // Delivery profile and the all inside for static site
-    'delivery': {
-        title: 'Delivery & Transport Jobs – Bike, Car & Truck Drivers',
-        description:
-            'Explore 3000+ delivery and transport job openings in India across food, grocery, courier, and logistics sectors. Roles for bike riders, truck drivers & couriers. Salary ₹15K–50K/month with flexible shifts. Apply today!',
+    // 'delivery': {
+    //     title: 'Delivery & Transport Jobs – Bike, Car & Truck Drivers',
+    //     description:
+    //         'Explore 3000+ delivery and transport job openings in India across food, grocery, courier, and logistics sectors. Roles for bike riders, truck drivers & couriers. Salary ₹15K–50K/month with flexible shifts. Apply today!',
 
-        image: '/images/jobprofile/11.png',
-        insights: [
-            '3000+ openings across food, grocery, logistics, and courier delivery.',
-            'Roles available for bike riders, auto drivers, truck operators, and last-mile delivery agents.',
-            'Daily payout and fuel allowance options at select companies.',
-            'Flexible shifts and part-time availability for many roles.',
-            'Opportunities with top platforms like Swiggy, Zomato, Dunzo, Porter & eCommerce brands.',
-        ],
-        tags: ['Delivery', 'Rider', 'Driver', 'Transport', 'Logistics'],
-        location: 'Pan India (Urban & Semi-Urban Regions)',
-        salary: '₹15,000 - ₹50,000/month',
+    //     image: '/images/jobprofile/11.png',
+    //     insights: [
+    //         '3000+ openings across food, grocery, logistics, and courier delivery.',
+    //         'Roles available for bike riders, auto drivers, truck operators, and last-mile delivery agents.',
+    //         'Daily payout and fuel allowance options at select companies.',
+    //         'Flexible shifts and part-time availability for many roles.',
+    //         'Opportunities with top platforms like Swiggy, Zomato, Dunzo, Porter & eCommerce brands.',
+    //     ],
+    //     tags: ['Delivery', 'Rider', 'Driver', 'Transport', 'Logistics'],
+    //     location: 'Pan India (Urban & Semi-Urban Regions)',
+    //     salary: '₹15,000 - ₹50,000/month',
 
-        responsibilities: [
-            'Pickup and deliver goods (food, groceries, parcels) to customers on time.',
-            'Plan efficient delivery routes based on traffic and order priority.',
-            'Ensure vehicle safety and documentation (license, insurance).',
-            'Use mobile apps for real-time tracking, navigation, and order updates.',
-            'Follow hygiene, safety, and company protocols while on duty.',
-        ],
+    //     responsibilities: [
+    //         'Pickup and deliver goods (food, groceries, parcels) to customers on time.',
+    //         'Plan efficient delivery routes based on traffic and order priority.',
+    //         'Ensure vehicle safety and documentation (license, insurance).',
+    //         'Use mobile apps for real-time tracking, navigation, and order updates.',
+    //         'Follow hygiene, safety, and company protocols while on duty.',
+    //     ],
 
-        qualifications: [
-            'Valid Driving License (2-wheeler/4-wheeler).',
-            'Own vehicle preferred (bike, scooter, or car); some roles offer company vehicles.',
-            'Smartphone with Android/iOS (for app-based delivery).',
-            'Basic reading and navigation skills (Google Maps, App usage).',
-            'Freshers and experienced drivers both welcome.',
-        ],
+    //     qualifications: [
+    //         'Valid Driving License (2-wheeler/4-wheeler).',
+    //         'Own vehicle preferred (bike, scooter, or car); some roles offer company vehicles.',
+    //         'Smartphone with Android/iOS (for app-based delivery).',
+    //         'Basic reading and navigation skills (Google Maps, App usage).',
+    //         'Freshers and experienced drivers both welcome.',
+    //     ],
 
-        benefits: [
-            'Daily/weekly payouts available with top platforms.',
-            'Fuel allowance & performance incentives.',
-            'Flexible working hours — part-time & full-time both.',
-            'Insurance coverage and bonuses at select employers.',
-            'Work with leading brands in eCommerce, food, and retail.',
-        ],
+    //     benefits: [
+    //         'Daily/weekly payouts available with top platforms.',
+    //         'Fuel allowance & performance incentives.',
+    //         'Flexible working hours — part-time & full-time both.',
+    //         'Insurance coverage and bonuses at select employers.',
+    //         'Work with leading brands in eCommerce, food, and retail.',
+    //     ],
 
-        workType: 'Full-Time / Part-Time / Contract',
-        shift: 'Flexible Shifts / Day & Night Delivery Slots',
+    //     workType: 'Full-Time / Part-Time / Contract',
+    //     shift: 'Flexible Shifts / Day & Night Delivery Slots',
 
-        metadata: {
-            title: 'Delivery Jobs | Driver, Rider & Logistics Roles - JobHub.world',
-            description:
-                '🚚 3000+ Delivery & Transportation Jobs | Food/Grocery Delivery, Logistics, Courier Services | ₹15K-50K/month | Bike/Car/Truck Drivers | Apply Today!',
-            keywords:
-                'delivery jobs, food delivery jobs, Swiggy Zomato delivery, grocery delivery jobs, logistics jobs, truck driver jobs, bike rider jobs, courier jobs, transport jobs, last mile delivery jobs',
-            author: 'JobHub.world - India\'s Largest Delivery Job Platform',
-            canonical: 'https://www.jobhub.world/delivery',
-            og: {
-                title: '🛵 3000+ Delivery/Transport Jobs - Immediate Hiring | JobHub.world',
-                description:
-                    'Urgent openings: Food Delivery (₹15K-35K), Grocery Delivery (₹18K-30K), Truck Drivers (₹25K-50K), Courier Executives (₹15K-28K). Vehicle & DL required for most roles.',
-                image: 'https://www.jobhub.world/images/og/delivery-jobs-og.jpg',
-                url: 'https://www.jobhub.world/delivery',
-            },
-            twitter: {
-                title: 'Delivery/Transport Jobs - 3000+ Openings',
-                description:
-                    'Food/grocery delivery, logistics & courier jobs available. Daily payout options. #DeliveryJobs #DriverJobs',
-                image: 'https://www.jobhub.world/images/twitter/delivery-jobs-card.jpg',
-            },
-        },
+    //     metadata: {
+    //         title: 'Delivery Jobs | Driver, Rider & Logistics Roles - JobHub.world',
+    //         description:
+    //             '🚚 3000+ Delivery & Transportation Jobs | Food/Grocery Delivery, Logistics, Courier Services | ₹15K-50K/month | Bike/Car/Truck Drivers | Apply Today!',
+    //         keywords:
+    //             'delivery jobs, food delivery jobs, Swiggy Zomato delivery, grocery delivery jobs, logistics jobs, truck driver jobs, bike rider jobs, courier jobs, transport jobs, last mile delivery jobs',
+    //         author: 'JobHub.world - India\'s Largest Delivery Job Platform',
+    //         canonical: 'https://www.jobhub.world/delivery',
+    //         og: {
+    //             title: '🛵 3000+ Delivery/Transport Jobs - Immediate Hiring | JobHub.world',
+    //             description:
+    //                 'Urgent openings: Food Delivery (₹15K-35K), Grocery Delivery (₹18K-30K), Truck Drivers (₹25K-50K), Courier Executives (₹15K-28K). Vehicle & DL required for most roles.',
+    //             image: 'https://www.jobhub.world/images/og/delivery-jobs-og.jpg',
+    //             url: 'https://www.jobhub.world/delivery',
+    //         },
+    //         twitter: {
+    //             title: 'Delivery/Transport Jobs - 3000+ Openings',
+    //             description:
+    //                 'Food/grocery delivery, logistics & courier jobs available. Daily payout options. #DeliveryJobs #DriverJobs',
+    //             image: 'https://www.jobhub.world/images/twitter/delivery-jobs-card.jpg',
+    //         },
+    //     },
 
-        structuredData: [
-            {
-                "@context": "https://schema.org",
-                "@type": "JobPosting",
-                "title": "Delivery & Transport Professional",
-                "description": "Multiple roles available in food delivery, grocery delivery, logistics and courier services. Requires valid driving license and own/company vehicle depending on position.",
-                "hiringOrganization": {
-                    "@type": "Organization",
-                    "name": "JobHub.world",
-                    "sameAs": "https://www.jobhub.world",
-                    "logo": "https://www.jobhub.world/Jobhub%20logo.png"
-                },
-                "industry": "Transportation",
-                "jobLocation": {
-                    "@type": "Place",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Multiple Locations",
-                        "addressRegion": "India",
-                        "addressCountry": "IN"
-                    }
-                },
-                "baseSalary": {
-                    "@type": "MonetaryAmount",
-                    "currency": "INR",
-                    "value": {
-                        "@type": "QuantitativeValue",
-                        "minValue": 15000,
-                        "maxValue": 50000,
-                        "unitText": "MONTH"
-                    }
-                },
-                "jobBenefits": "Daily Payouts, Fuel Allowance, Flexible Hours",
-                "datePosted": "2025-07-23",
-                "validThrough": "2025-10-23",
-                "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACTOR"],
-                "experienceRequirements": {
-                    "@type": "OccupationalExperienceRequirements",
-                    "monthsOfExperience": 0
-                },
-                "requirements": "Valid Driving License, Own Vehicle (for some roles)"
-            },
-            {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Logistics Jobs",
-                        "item": "https://www.jobhub.world/delivery"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Delivery & Transport Jobs",
-                        "item": "https://www.jobhub.world/delivery"
-                    }
-                ]
-            }
-        ]
-    },
+    //     structuredData: [
+    //         {
+    //             "@context": "https://schema.org",
+    //             "@type": "JobPosting",
+    //             "title": "Delivery & Transport Professional",
+    //             "description": "Multiple roles available in food delivery, grocery delivery, logistics and courier services. Requires valid driving license and own/company vehicle depending on position.",
+    //             "hiringOrganization": {
+    //                 "@type": "Organization",
+    //                 "name": "JobHub.world",
+    //                 "sameAs": "https://www.jobhub.world",
+    //                 "logo": "https://www.jobhub.world/Jobhub%20logo.png"
+    //             },
+    //             "industry": "Transportation",
+    //             "jobLocation": {
+    //                 "@type": "Place",
+    //                 "address": {
+    //                     "@type": "PostalAddress",
+    //                     "addressLocality": "Multiple Locations",
+    //                     "addressRegion": "India",
+    //                     "addressCountry": "IN"
+    //                 }
+    //             },
+    //             "baseSalary": {
+    //                 "@type": "MonetaryAmount",
+    //                 "currency": "INR",
+    //                 "value": {
+    //                     "@type": "QuantitativeValue",
+    //                     "minValue": 15000,
+    //                     "maxValue": 50000,
+    //                     "unitText": "MONTH"
+    //                 }
+    //             },
+    //             "jobBenefits": "Daily Payouts, Fuel Allowance, Flexible Hours",
+    //             "datePosted": "2025-07-23",
+    //             "validThrough": "2025-10-23",
+    //             "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACTOR"],
+    //             "experienceRequirements": {
+    //                 "@type": "OccupationalExperienceRequirements",
+    //                 "monthsOfExperience": 0
+    //             },
+    //             "requirements": "Valid Driving License, Own Vehicle (for some roles)"
+    //         },
+    //         {
+    //             "@type": "BreadcrumbList",
+    //             "itemListElement": [
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 1,
+    //                     "name": "Logistics Jobs",
+    //                     "item": "https://www.jobhub.world/delivery"
+    //                 },
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 2,
+    //                     "name": "Delivery & Transport Jobs",
+    //                     "item": "https://www.jobhub.world/delivery"
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
 
     // Secruity guard profile and the all inside for static site
     securityguard: {
@@ -1534,414 +2941,414 @@ export const jobsData = {
     },
 
     // Hotel Staff profile and the all inside for static site
-    hotelstaff: {
-        title: 'Hotel Staff Jobs – 2000+ Openings in 5-Star to Budget Hotels',
-        description:
-            '🏨 2000+ hotel staff jobs across front office, housekeeping, F&B service, chef & management roles. Salary ₹12K-80K/month with free accommodation and meals at most hotels. Apply today!',
+    // hotelstaff: {
+    //     title: 'Hotel Staff Jobs – 2000+ Openings in 5-Star to Budget Hotels',
+    //     description:
+    //         '🏨 2000+ hotel staff jobs across front office, housekeeping, F&B service, chef & management roles. Salary ₹12K-80K/month with free accommodation and meals at most hotels. Apply today!',
 
-        image: '/images/jobprofile/13.png',
-        insights: [
-            'Jobs available in leading hotel chains including Taj, Oberoi, Marriott, and more.',
-            'Roles include receptionists, chefs, waiters, housekeeping staff, and management.',
-            'Free accommodation and meals provided at many properties.',
-            'Opportunities for freshers and experienced professionals.',
-            'Positions across multiple locations in India.',
-        ],
-        tags: [
-            'Hotel Staff',
-            'Front Office Jobs',
-            'Housekeeping',
-            'Chef Jobs',
-            'Waiter Jobs',
-            'Hotel Management',
-            'Banquet Staff',
-            'Hospitality Jobs',
-        ],
-        location: 'Multiple Locations Across India',
-        salary: '₹12,000 - ₹80,000/month',
+    //     image: '/images/jobprofile/13.png',
+    //     insights: [
+    //         'Jobs available in leading hotel chains including Taj, Oberoi, Marriott, and more.',
+    //         'Roles include receptionists, chefs, waiters, housekeeping staff, and management.',
+    //         'Free accommodation and meals provided at many properties.',
+    //         'Opportunities for freshers and experienced professionals.',
+    //         'Positions across multiple locations in India.',
+    //     ],
+    //     tags: [
+    //         'Hotel Staff',
+    //         'Front Office Jobs',
+    //         'Housekeeping',
+    //         'Chef Jobs',
+    //         'Waiter Jobs',
+    //         'Hotel Management',
+    //         'Banquet Staff',
+    //         'Hospitality Jobs',
+    //     ],
+    //     location: 'Multiple Locations Across India',
+    //     salary: '₹12,000 - ₹80,000/month',
 
-        responsibilities: [
-            'Managing front desk operations and guest check-ins/check-outs.',
-            'Ensuring cleanliness and maintenance of rooms and public areas.',
-            'Serving food and beverages with high customer service standards.',
-            'Preparing and cooking meals in kitchen departments.',
-            'Coordinating banquet and event services.',
-        ],
+    //     responsibilities: [
+    //         'Managing front desk operations and guest check-ins/check-outs.',
+    //         'Ensuring cleanliness and maintenance of rooms and public areas.',
+    //         'Serving food and beverages with high customer service standards.',
+    //         'Preparing and cooking meals in kitchen departments.',
+    //         'Coordinating banquet and event services.',
+    //     ],
 
-        qualifications: [
-            'Relevant experience or hospitality training preferred but freshers welcome.',
-            'Good communication and interpersonal skills.',
-            'Ability to work flexible shifts including weekends and holidays.',
-            'Team player with a customer-focused attitude.',
-        ],
+    //     qualifications: [
+    //         'Relevant experience or hospitality training preferred but freshers welcome.',
+    //         'Good communication and interpersonal skills.',
+    //         'Ability to work flexible shifts including weekends and holidays.',
+    //         'Team player with a customer-focused attitude.',
+    //     ],
 
-        benefits: [
-            'Free accommodation and meals at most hotel properties.',
-            'Uniforms and tips provided.',
-            'Opportunities for career growth within hospitality chains.',
-            'Training and skill development programs.',
-        ],
+    //     benefits: [
+    //         'Free accommodation and meals at most hotel properties.',
+    //         'Uniforms and tips provided.',
+    //         'Opportunities for career growth within hospitality chains.',
+    //         'Training and skill development programs.',
+    //     ],
 
-        workType: 'Full-Time / Part-Time / Contract',
-        shift: 'Flexible shifts including rotational and weekend shifts',
+    //     workType: 'Full-Time / Part-Time / Contract',
+    //     shift: 'Flexible shifts including rotational and weekend shifts',
 
-        metadata: {
-            title: 'Hotel Staff Jobs | 2000+ Openings in 5-Star to Budget Hotels - JobHub.world',
-            description:
-                '🏨 2000+ Hotel Staff Jobs | Front Office, Housekeeping, F&B Service, Chef & Management Roles | ₹12K-80K/month | Free Accommodation+Meals | Apply Today!',
-            keywords:
-                'hotel jobs, front office jobs, housekeeping jobs, chef jobs, waiter jobs, hotel management jobs, banquet staff jobs, hospitality jobs, fresher hotel jobs, 5-star hotel jobs',
-            author: "JobHub.world - India's Leading Hospitality Job Platform",
-            canonical: 'https://www.jobhub.world/hotelstaff',
-            og: {
-                title: '✨ 2000+ Hotel Staff Jobs - 5-Star Chains Hiring | JobHub.world',
-                description:
-                    'Urgent hiring for Taj, Oberoi, Marriott & other chains: Receptionists (₹15K-35K), Chefs (₹25K-80K), Waiters (₹12K-25K). Free accommodation+meals at most properties.',
-                image: 'https://www.jobhub.world/images/og/hotel-jobs-og.jpg',
-                url: 'https://www.jobhub.world/hotelstaff',
-            },
-            twitter: {
-                title: 'Hotel Staff Jobs - 2000+ Openings Across India',
-                description: 'Front office, housekeeping, F&B service and chef positions available. #HotelJobs #HiringNow',
-                image: 'https://www.jobhub.world/images/twitter/hotel-jobs-card.jpg',
-            },
-        },
+    //     metadata: {
+    //         title: 'Hotel Staff Jobs | 2000+ Openings in 5-Star to Budget Hotels - JobHub.world',
+    //         description:
+    //             '🏨 2000+ Hotel Staff Jobs | Front Office, Housekeeping, F&B Service, Chef & Management Roles | ₹12K-80K/month | Free Accommodation+Meals | Apply Today!',
+    //         keywords:
+    //             'hotel jobs, front office jobs, housekeeping jobs, chef jobs, waiter jobs, hotel management jobs, banquet staff jobs, hospitality jobs, fresher hotel jobs, 5-star hotel jobs',
+    //         author: "JobHub.world - India's Leading Hospitality Job Platform",
+    //         canonical: 'https://www.jobhub.world/hotelstaff',
+    //         og: {
+    //             title: '✨ 2000+ Hotel Staff Jobs - 5-Star Chains Hiring | JobHub.world',
+    //             description:
+    //                 'Urgent hiring for Taj, Oberoi, Marriott & other chains: Receptionists (₹15K-35K), Chefs (₹25K-80K), Waiters (₹12K-25K). Free accommodation+meals at most properties.',
+    //             image: 'https://www.jobhub.world/images/og/hotel-jobs-og.jpg',
+    //             url: 'https://www.jobhub.world/hotelstaff',
+    //         },
+    //         twitter: {
+    //             title: 'Hotel Staff Jobs - 2000+ Openings Across India',
+    //             description: 'Front office, housekeeping, F&B service and chef positions available. #HotelJobs #HiringNow',
+    //             image: 'https://www.jobhub.world/images/twitter/hotel-jobs-card.jpg',
+    //         },
+    //     },
 
-        structuredData: [
-            {
-                "@context": "https://schema.org",
-                "@type": "JobPosting",
-                "title": "Hotel Staff",
-                "description": "Various positions available in leading hotel chains including front office, food & beverage service, housekeeping, and kitchen departments.",
-                "hiringOrganization": {
-                    "@type": "Organization",
-                    "name": "JobHub.world",
-                    "sameAs": "https://www.jobhub.world",
-                    "logo": "https://www.jobhub.world/Jobhub%20logo.png"
-                },
-                "industry": "Hospitality",
-                "jobLocation": {
-                    "@type": "Place",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Multiple Locations",
-                        "addressRegion": "India",
-                        "addressCountry": "IN"
-                    }
-                },
-                "baseSalary": {
-                    "@type": "MonetaryAmount",
-                    "currency": "INR",
-                    "value": {
-                        "@type": "QuantitativeValue",
-                        "minValue": 12000,
-                        "maxValue": 80000,
-                        "unitText": "MONTH"
-                    }
-                },
-                "jobBenefits": "Accommodation, Meals, Uniform, Tips",
-                "datePosted": "2025-07-23",
-                "validThrough": "2025-10-23",
-                "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACT"],
-                "experienceRequirements": {
-                    "@type": "OccupationalExperienceRequirements",
-                    "monthsOfExperience": 0
-                }
-            },
-            {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Hospitality Jobs",
-                        "item": "https://www.jobhub.world/hotelstaff"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Hotel Staff Jobs",
-                        "item": "https://www.jobhub.world/hotelstaff"
-                    }
-                ]
-            }
-        ]
-    },
+    //     structuredData: [
+    //         {
+    //             "@context": "https://schema.org",
+    //             "@type": "JobPosting",
+    //             "title": "Hotel Staff",
+    //             "description": "Various positions available in leading hotel chains including front office, food & beverage service, housekeeping, and kitchen departments.",
+    //             "hiringOrganization": {
+    //                 "@type": "Organization",
+    //                 "name": "JobHub.world",
+    //                 "sameAs": "https://www.jobhub.world",
+    //                 "logo": "https://www.jobhub.world/Jobhub%20logo.png"
+    //             },
+    //             "industry": "Hospitality",
+    //             "jobLocation": {
+    //                 "@type": "Place",
+    //                 "address": {
+    //                     "@type": "PostalAddress",
+    //                     "addressLocality": "Multiple Locations",
+    //                     "addressRegion": "India",
+    //                     "addressCountry": "IN"
+    //                 }
+    //             },
+    //             "baseSalary": {
+    //                 "@type": "MonetaryAmount",
+    //                 "currency": "INR",
+    //                 "value": {
+    //                     "@type": "QuantitativeValue",
+    //                     "minValue": 12000,
+    //                     "maxValue": 80000,
+    //                     "unitText": "MONTH"
+    //                 }
+    //             },
+    //             "jobBenefits": "Accommodation, Meals, Uniform, Tips",
+    //             "datePosted": "2025-07-23",
+    //             "validThrough": "2025-10-23",
+    //             "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACT"],
+    //             "experienceRequirements": {
+    //                 "@type": "OccupationalExperienceRequirements",
+    //                 "monthsOfExperience": 0
+    //             }
+    //         },
+    //         {
+    //             "@type": "BreadcrumbList",
+    //             "itemListElement": [
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 1,
+    //                     "name": "Hospitality Jobs",
+    //                     "item": "https://www.jobhub.world/hotelstaff"
+    //                 },
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 2,
+    //                     "name": "Hotel Staff Jobs",
+    //                     "item": "https://www.jobhub.world/hotelstaff"
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
 
     // WareHouse profile and the all inside for static site
-    warehousestaff: {
-        title: 'Warehouse Jobs | Hiring Packers, Loaders & Supervisors',
-        description:
-            '📦 1800+ warehouse staff jobs including packers, loaders, forklift operators with ₹12K-45K/month salary. Amazon/Flipkart vendors hiring urgently. Immediate openings, apply today!',
+    // warehousestaff: {
+    //     title: 'Warehouse Jobs | Hiring Packers, Loaders & Supervisors',
+    //     description:
+    //         '📦 1800+ warehouse staff jobs including packers, loaders, forklift operators with ₹12K-45K/month salary. Amazon/Flipkart vendors hiring urgently. Immediate openings, apply today!',
 
-        image: '/images/jobprofile/14.png',
-        insights: [
-            'Hiring for major e-commerce warehouses including Amazon & Flipkart vendors.',
-            'Roles include Packers, Loaders, Forklift Operators, Inventory & Supervisors.',
-            'Flexible day and night shifts available.',
-            'Freshers can apply for many roles.',
-            'Positions across multiple locations in India.',
-        ],
-        tags: [
-            'Warehouse Jobs',
-            'Packer Jobs',
-            'Loader Jobs',
-            'Forklift Operator',
-            'Inventory Jobs',
-            'Warehouse Supervisor',
-            'Logistics Jobs',
-            'E-commerce Warehouse',
-            'Night Shift Warehouse',
-        ],
-        location: 'Multiple Locations Across India',
-        salary: '₹12,000 - ₹45,000/month',
+    //     image: '/images/jobprofile/14.png',
+    //     insights: [
+    //         'Hiring for major e-commerce warehouses including Amazon & Flipkart vendors.',
+    //         'Roles include Packers, Loaders, Forklift Operators, Inventory & Supervisors.',
+    //         'Flexible day and night shifts available.',
+    //         'Freshers can apply for many roles.',
+    //         'Positions across multiple locations in India.',
+    //     ],
+    //     tags: [
+    //         'Warehouse Jobs',
+    //         'Packer Jobs',
+    //         'Loader Jobs',
+    //         'Forklift Operator',
+    //         'Inventory Jobs',
+    //         'Warehouse Supervisor',
+    //         'Logistics Jobs',
+    //         'E-commerce Warehouse',
+    //         'Night Shift Warehouse',
+    //     ],
+    //     location: 'Multiple Locations Across India',
+    //     salary: '₹12,000 - ₹45,000/month',
 
-        responsibilities: [
-            'Packing and preparing goods for shipment.',
-            'Loading and unloading materials and products.',
-            'Operating forklifts and other warehouse equipment.',
-            'Managing inventory and stock levels.',
-            'Supervising warehouse floor operations and staff.',
-        ],
+    //     responsibilities: [
+    //         'Packing and preparing goods for shipment.',
+    //         'Loading and unloading materials and products.',
+    //         'Operating forklifts and other warehouse equipment.',
+    //         'Managing inventory and stock levels.',
+    //         'Supervising warehouse floor operations and staff.',
+    //     ],
 
-        qualifications: [
-            'Basic physical fitness and ability to handle manual labor.',
-            'Forklift certification preferred for operator roles.',
-            'Good teamwork and communication skills.',
-            'Ability to work flexible shifts including night shifts.',
-            'Prior warehouse experience is a plus but not mandatory.',
-        ],
+    //     qualifications: [
+    //         'Basic physical fitness and ability to handle manual labor.',
+    //         'Forklift certification preferred for operator roles.',
+    //         'Good teamwork and communication skills.',
+    //         'Ability to work flexible shifts including night shifts.',
+    //         'Prior warehouse experience is a plus but not mandatory.',
+    //     ],
 
-        benefits: [
-            'Shift allowance and overtime pay.',
-            'Provision of safety gear and uniforms.',
-            'Opportunities for contract, part-time and full-time employment.',
-            'Work with leading e-commerce logistics companies.',
-        ],
+    //     benefits: [
+    //         'Shift allowance and overtime pay.',
+    //         'Provision of safety gear and uniforms.',
+    //         'Opportunities for contract, part-time and full-time employment.',
+    //         'Work with leading e-commerce logistics companies.',
+    //     ],
 
-        workType: 'Full-Time / Part-Time / Contract',
-        shift: 'Day and Night Shifts',
+    //     workType: 'Full-Time / Part-Time / Contract',
+    //     shift: 'Day and Night Shifts',
 
-        metadata: {
-            title: 'Warehouse Jobs | Hiring Packers, Loaders & Supervisors - JobHub.world',
-            description:
-                '📦 1800+ Warehouse Staff Jobs | Packers, Loaders, Forklift Operators | ₹12K-45K/month | Amazon/Flipkart Vendors Hiring | Immediate Openings | Apply Today!',
-            keywords:
-                'warehouse jobs, packer jobs, loader jobs, forklift operator jobs, inventory jobs, warehouse supervisor jobs, logistics jobs, e-commerce warehouse jobs, fresher warehouse jobs, night shift warehouse jobs',
-            author: "JobHub.world - India's Leading Logistics Job Platform",
-            canonical: 'https://www.jobhub.world/warehousestaff',
-            og: {
-                title: '🚛 1800+ Warehouse Staff Jobs - Urgent Hiring | JobHub.world',
-                description:
-                    'Hiring for Amazon/Flipkart warehouses: Packers (₹12K-25K), Forklift Operators (₹18K-35K), Supervisors (₹25K-45K). Day/Night shifts available. Freshers welcome for many roles.',
-                image: 'https://www.jobhub.world/images/og/warehouse-jobs-og.jpg',
-                url: 'https://www.jobhub.world/warehousestaff',
-            },
-            twitter: {
-                title: 'Warehouse Jobs - E-commerce & Logistics Hiring',
-                description: '1800+ warehouse openings with flexible shifts. #WarehouseJobs #LogisticsJobs',
-                image: 'https://www.jobhub.world/images/twitter/warehouse-jobs-card.jpg',
-            },
-        },
+    //     metadata: {
+    //         title: 'Warehouse Jobs | Hiring Packers, Loaders & Supervisors - JobHub.world',
+    //         description:
+    //             '📦 1800+ Warehouse Staff Jobs | Packers, Loaders, Forklift Operators | ₹12K-45K/month | Amazon/Flipkart Vendors Hiring | Immediate Openings | Apply Today!',
+    //         keywords:
+    //             'warehouse jobs, packer jobs, loader jobs, forklift operator jobs, inventory jobs, warehouse supervisor jobs, logistics jobs, e-commerce warehouse jobs, fresher warehouse jobs, night shift warehouse jobs',
+    //         author: "JobHub.world - India's Leading Logistics Job Platform",
+    //         canonical: 'https://www.jobhub.world/warehousestaff',
+    //         og: {
+    //             title: '🚛 1800+ Warehouse Staff Jobs - Urgent Hiring | JobHub.world',
+    //             description:
+    //                 'Hiring for Amazon/Flipkart warehouses: Packers (₹12K-25K), Forklift Operators (₹18K-35K), Supervisors (₹25K-45K). Day/Night shifts available. Freshers welcome for many roles.',
+    //             image: 'https://www.jobhub.world/images/og/warehouse-jobs-og.jpg',
+    //             url: 'https://www.jobhub.world/warehousestaff',
+    //         },
+    //         twitter: {
+    //             title: 'Warehouse Jobs - E-commerce & Logistics Hiring',
+    //             description: '1800+ warehouse openings with flexible shifts. #WarehouseJobs #LogisticsJobs',
+    //             image: 'https://www.jobhub.world/images/twitter/warehouse-jobs-card.jpg',
+    //         },
+    //     },
 
-        structuredData: [
-            {
-                "@context": "https://schema.org",
-                "@type": "JobPosting",
-                "title": "Warehouse Staff",
-                "description": "Multiple roles available in e-commerce and logistics warehouses including packing, loading, inventory management and equipment operation.",
-                "hiringOrganization": {
-                    "@type": "Organization",
-                    "name": "JobHub.world",
-                    "sameAs": "https://www.jobhub.world",
-                    "logo": "https://www.jobhub.world/Jobhub%20logo.png"
-                },
-                "industry": "Logistics",
-                "jobLocation": {
-                    "@type": "Place",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Multiple Locations",
-                        "addressRegion": "India",
-                        "addressCountry": "IN"
-                    }
-                },
-                "baseSalary": {
-                    "@type": "MonetaryAmount",
-                    "currency": "INR",
-                    "value": {
-                        "@type": "QuantitativeValue",
-                        "minValue": 12000,
-                        "maxValue": 45000,
-                        "unitText": "MONTH"
-                    }
-                },
-                "jobBenefits": "Shift Allowance, Overtime Pay, Safety Gear",
-                "datePosted": "2025-07-23",
-                "validThrough": "2025-10-23",
-                "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACT"],
-                "experienceRequirements": {
-                    "@type": "OccupationalExperienceRequirements",
-                    "monthsOfExperience": 0
-                }
-            },
-            {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Logistics Jobs",
-                        "item": "https://www.jobhub.world/warehousestaff"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Warehouse Jobs",
-                        "item": "https://www.jobhub.world/warehousestaff"
-                    }
-                ]
-            }
-        ]
-    },
+    //     structuredData: [
+    //         {
+    //             "@context": "https://schema.org",
+    //             "@type": "JobPosting",
+    //             "title": "Warehouse Staff",
+    //             "description": "Multiple roles available in e-commerce and logistics warehouses including packing, loading, inventory management and equipment operation.",
+    //             "hiringOrganization": {
+    //                 "@type": "Organization",
+    //                 "name": "JobHub.world",
+    //                 "sameAs": "https://www.jobhub.world",
+    //                 "logo": "https://www.jobhub.world/Jobhub%20logo.png"
+    //             },
+    //             "industry": "Logistics",
+    //             "jobLocation": {
+    //                 "@type": "Place",
+    //                 "address": {
+    //                     "@type": "PostalAddress",
+    //                     "addressLocality": "Multiple Locations",
+    //                     "addressRegion": "India",
+    //                     "addressCountry": "IN"
+    //                 }
+    //             },
+    //             "baseSalary": {
+    //                 "@type": "MonetaryAmount",
+    //                 "currency": "INR",
+    //                 "value": {
+    //                     "@type": "QuantitativeValue",
+    //                     "minValue": 12000,
+    //                     "maxValue": 45000,
+    //                     "unitText": "MONTH"
+    //                 }
+    //             },
+    //             "jobBenefits": "Shift Allowance, Overtime Pay, Safety Gear",
+    //             "datePosted": "2025-07-23",
+    //             "validThrough": "2025-10-23",
+    //             "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACT"],
+    //             "experienceRequirements": {
+    //                 "@type": "OccupationalExperienceRequirements",
+    //                 "monthsOfExperience": 0
+    //             }
+    //         },
+    //         {
+    //             "@type": "BreadcrumbList",
+    //             "itemListElement": [
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 1,
+    //                     "name": "Logistics Jobs",
+    //                     "item": "https://www.jobhub.world/warehousestaff"
+    //                 },
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 2,
+    //                     "name": "Warehouse Jobs",
+    //                     "item": "https://www.jobhub.world/warehousestaff"
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
 
     // Factory profile and the all inside for static site
-    factoryworker: {
-        title: 'Factory Worker Jobs | Production & Manufacturing Roles',
-        description:
-            '🏭 2500+ Factory Worker Jobs | Machine Operators, Assemblers, Packers | ₹12K-50K/month | Textile, Automotive, FMCG Factories Hiring | Apply Today!',
+    // factoryworker: {
+    //     title: 'Factory Worker Jobs | Production & Manufacturing Roles',
+    //     description:
+    //         '🏭 2500+ Factory Worker Jobs | Machine Operators, Assemblers, Packers | ₹12K-50K/month | Textile, Automotive, FMCG Factories Hiring | Apply Today!',
 
-        image: '/images/jobprofile/15.png',
-        insights: [
-            'Urgent hiring in manufacturing units across textiles, automotive, FMCG sectors.',
-            'Positions available for Machine Operators, Assemblers, Quality Inspectors, Packers.',
-            'Overtime pay and shift allowances offered.',
-            'Freshers will receive on-job training.',
-            'Multiple locations across India.',
-        ],
-        tags: [
-            'Factory Jobs',
-            'Production Worker',
-            'Machine Operator',
-            'Assembly Line Jobs',
-            'Textile Factory Jobs',
-            'FMCG Factory Jobs',
-            'Automotive Factory Jobs',
-            'Packaging Jobs',
-            'Fresher Factory Jobs',
-            'Industrial Jobs',
-        ],
-        location: 'Multiple Locations Across India',
-        salary: '₹12,000 - ₹50,000/month',
+    //     image: '/images/jobprofile/15.png',
+    //     insights: [
+    //         'Urgent hiring in manufacturing units across textiles, automotive, FMCG sectors.',
+    //         'Positions available for Machine Operators, Assemblers, Quality Inspectors, Packers.',
+    //         'Overtime pay and shift allowances offered.',
+    //         'Freshers will receive on-job training.',
+    //         'Multiple locations across India.',
+    //     ],
+    //     tags: [
+    //         'Factory Jobs',
+    //         'Production Worker',
+    //         'Machine Operator',
+    //         'Assembly Line Jobs',
+    //         'Textile Factory Jobs',
+    //         'FMCG Factory Jobs',
+    //         'Automotive Factory Jobs',
+    //         'Packaging Jobs',
+    //         'Fresher Factory Jobs',
+    //         'Industrial Jobs',
+    //     ],
+    //     location: 'Multiple Locations Across India',
+    //     salary: '₹12,000 - ₹50,000/month',
 
-        responsibilities: [
-            'Operate machinery and production equipment.',
-            'Assemble products on the production line.',
-            'Inspect quality of finished goods.',
-            'Maintain safety standards and follow procedures.',
-            'Package and prepare products for shipment.',
-        ],
+    //     responsibilities: [
+    //         'Operate machinery and production equipment.',
+    //         'Assemble products on the production line.',
+    //         'Inspect quality of finished goods.',
+    //         'Maintain safety standards and follow procedures.',
+    //         'Package and prepare products for shipment.',
+    //     ],
 
-        qualifications: [
-            'Basic physical fitness for factory work.',
-            'Ability to learn and operate production machinery.',
-            'Attention to detail for quality control.',
-            'Willingness to work shifts including overtime.',
-            'No prior experience necessary; training provided.',
-        ],
+    //     qualifications: [
+    //         'Basic physical fitness for factory work.',
+    //         'Ability to learn and operate production machinery.',
+    //         'Attention to detail for quality control.',
+    //         'Willingness to work shifts including overtime.',
+    //         'No prior experience necessary; training provided.',
+    //     ],
 
-        benefits: [
-            'Overtime pay and shift allowance.',
-            'Safety training and protective equipment provided.',
-            'Opportunities for full-time, part-time, and contract roles.',
-            'Work across reputed manufacturing companies.',
-        ],
+    //     benefits: [
+    //         'Overtime pay and shift allowance.',
+    //         'Safety training and protective equipment provided.',
+    //         'Opportunities for full-time, part-time, and contract roles.',
+    //         'Work across reputed manufacturing companies.',
+    //     ],
 
-        workType: 'Full-Time / Part-Time / Contract',
-        shift: 'Flexible shifts with overtime',
+    //     workType: 'Full-Time / Part-Time / Contract',
+    //     shift: 'Flexible shifts with overtime',
 
-        metadata: {
-            title: 'Factory Worker Jobs | Production & Manufacturing Roles - JobHub.world',
-            description:
-                '🏭 2500+ Factory Worker Jobs | Machine Operators, Assemblers, Packers | ₹12K-50K/month | Textile, Automotive, FMCG Factories Hiring | Apply Today!',
-            keywords:
-                'factory jobs, production worker jobs, machine operator jobs, assembly line jobs, textile factory jobs, FMCG factory jobs, automotive factory jobs, packaging jobs, fresher factory jobs, industrial jobs',
-            author: "JobHub.world - India's Leading Manufacturing Job Platform",
-            canonical: 'https://www.jobhub.world/factory',
-            og: {
-                title: '⚙️ 2500+ Factory Worker Jobs - Immediate Hiring | JobHub.world',
-                description:
-                    'Urgent openings in manufacturing units: Machine Operators (₹15K-35K), Assemblers (₹12K-25K), Quality Inspectors (₹18K-40K). Overtime pay available. Freshers trained.',
-                image: 'https://www.jobhub.world/images/og/factory-jobs-og.jpg',
-                url: 'https://www.jobhub.world/factory',
-            },
-            twitter: {
-                title: 'Factory Worker Jobs - Production & Assembly Roles',
-                description: '2500+ manufacturing jobs available with overtime pay. #FactoryJobs #IndustrialJobs',
-                image: 'https://www.jobhub.world/images/twitter/factory-jobs-card.jpg',
-            },
-        },
+    //     metadata: {
+    //         title: 'Factory Worker Jobs | Production & Manufacturing Roles - JobHub.world',
+    //         description:
+    //             '🏭 2500+ Factory Worker Jobs | Machine Operators, Assemblers, Packers | ₹12K-50K/month | Textile, Automotive, FMCG Factories Hiring | Apply Today!',
+    //         keywords:
+    //             'factory jobs, production worker jobs, machine operator jobs, assembly line jobs, textile factory jobs, FMCG factory jobs, automotive factory jobs, packaging jobs, fresher factory jobs, industrial jobs',
+    //         author: "JobHub.world - India's Leading Manufacturing Job Platform",
+    //         canonical: 'https://www.jobhub.world/factory',
+    //         og: {
+    //             title: '⚙️ 2500+ Factory Worker Jobs - Immediate Hiring | JobHub.world',
+    //             description:
+    //                 'Urgent openings in manufacturing units: Machine Operators (₹15K-35K), Assemblers (₹12K-25K), Quality Inspectors (₹18K-40K). Overtime pay available. Freshers trained.',
+    //             image: 'https://www.jobhub.world/images/og/factory-jobs-og.jpg',
+    //             url: 'https://www.jobhub.world/factory',
+    //         },
+    //         twitter: {
+    //             title: 'Factory Worker Jobs - Production & Assembly Roles',
+    //             description: '2500+ manufacturing jobs available with overtime pay. #FactoryJobs #IndustrialJobs',
+    //             image: 'https://www.jobhub.world/images/twitter/factory-jobs-card.jpg',
+    //         },
+    //     },
 
-        structuredData: [
-            {
-                "@context": "https://schema.org",
-                "@type": "JobPosting",
-                "title": "Factory Worker",
-                "description": "Production, assembly and quality control roles in manufacturing facilities across industries including textiles, automotive and consumer goods.",
-                "hiringOrganization": {
-                    "@type": "Organization",
-                    "name": "JobHub.world",
-                    "sameAs": "https://www.jobhub.world",
-                    "logo": "https://www.jobhub.world/Jobhub%20logo.png"
-                },
-                "industry": "Manufacturing",
-                "jobLocation": {
-                    "@type": "Place",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Multiple Locations",
-                        "addressRegion": "India",
-                        "addressCountry": "IN"
-                    }
-                },
-                "baseSalary": {
-                    "@type": "MonetaryAmount",
-                    "currency": "INR",
-                    "value": {
-                        "@type": "QuantitativeValue",
-                        "minValue": 12000,
-                        "maxValue": 50000,
-                        "unitText": "MONTH"
-                    }
-                },
-                "jobBenefits": "Overtime Pay, Shift Allowance, Safety Training",
-                "datePosted": "2025-07-23",
-                "validThrough": "2025-10-23",
-                "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACT"],
-                "experienceRequirements": {
-                    "@type": "OccupationalExperienceRequirements",
-                    "monthsOfExperience": 0
-                }
-            },
-            {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Industrial Jobs",
-                        "item": "https://www.jobhub.world/factory"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Factory Worker Jobs",
-                        "item": "https://www.jobhub.world/factory"
-                    }
-                ]
-            }
-        ]
-    },
+    //     structuredData: [
+    //         {
+    //             "@context": "https://schema.org",
+    //             "@type": "JobPosting",
+    //             "title": "Factory Worker",
+    //             "description": "Production, assembly and quality control roles in manufacturing facilities across industries including textiles, automotive and consumer goods.",
+    //             "hiringOrganization": {
+    //                 "@type": "Organization",
+    //                 "name": "JobHub.world",
+    //                 "sameAs": "https://www.jobhub.world",
+    //                 "logo": "https://www.jobhub.world/Jobhub%20logo.png"
+    //             },
+    //             "industry": "Manufacturing",
+    //             "jobLocation": {
+    //                 "@type": "Place",
+    //                 "address": {
+    //                     "@type": "PostalAddress",
+    //                     "addressLocality": "Multiple Locations",
+    //                     "addressRegion": "India",
+    //                     "addressCountry": "IN"
+    //                 }
+    //             },
+    //             "baseSalary": {
+    //                 "@type": "MonetaryAmount",
+    //                 "currency": "INR",
+    //                 "value": {
+    //                     "@type": "QuantitativeValue",
+    //                     "minValue": 12000,
+    //                     "maxValue": 50000,
+    //                     "unitText": "MONTH"
+    //                 }
+    //             },
+    //             "jobBenefits": "Overtime Pay, Shift Allowance, Safety Training",
+    //             "datePosted": "2025-07-23",
+    //             "validThrough": "2025-10-23",
+    //             "employmentType": ["FULL_TIME", "PART_TIME", "CONTRACT"],
+    //             "experienceRequirements": {
+    //                 "@type": "OccupationalExperienceRequirements",
+    //                 "monthsOfExperience": 0
+    //             }
+    //         },
+    //         {
+    //             "@type": "BreadcrumbList",
+    //             "itemListElement": [
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 1,
+    //                     "name": "Industrial Jobs",
+    //                     "item": "https://www.jobhub.world/factory"
+    //                 },
+    //                 {
+    //                     "@type": "ListItem",
+    //                     "position": 2,
+    //                     "name": "Factory Worker Jobs",
+    //                     "item": "https://www.jobhub.world/factory"
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
 
     // Factory worker profile and it's all meta data and the contene inside the site
     // factoryworker: {

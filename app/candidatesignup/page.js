@@ -6,6 +6,18 @@ import CandidateSignUpPagination, {
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import confetti from "canvas-confetti";
+
+const Toast = ({ message, type }) => {
+    if (!message) return null;
+
+    const baseClasses = "mt-6 text-center p-3 rounded font-medium";
+    const typeClasses = type === 'error'
+        ? 'text-red-600 bg-red-50'
+        : 'text-green-600 bg-green-50';
+
+    return <p className={`${baseClasses} ${typeClasses}`}>{message}</p>;
+};
+
 export default function Canidate() {
     const router = useRouter();
     const [form, setForm] = useState({
@@ -26,11 +38,29 @@ export default function Canidate() {
         fresher: true,
         experience: '' || null
     });
+    function areRequiredFieldsFilled(obj, requiredFields) {
+        return requiredFields.every((key) => obj[key]?.toString().trim() !== '');
+    }
 
     const [message, setMessage] = useState('');
     async function handleSubmit(e) {
         e.preventDefault();
         setMessage('');
+        const requiredFields = [
+            'fullname',
+            'email',
+            'password',
+            'number',
+            'dob',
+            'gender',
+            'address',
+            'position',
+        ];
+
+        if (!areRequiredFieldsFilled(form, requiredFields)) {
+            setMessage('All fields are required');
+            return;
+        }
         try {
             const res = await fetch('/api/candidate', {
                 method: 'POST',
@@ -38,11 +68,14 @@ export default function Canidate() {
                 body: JSON.stringify(form)
             })
             const data = await res.json();
-            console.log(data)
+            // console.log(data)
             if (res.ok) {
                 /**  */
                 // setTimeout(router.push(`/canidate/${data.candiates.id}/dashboard`), 3000)
                 setTimeout(router.push(`/interview-prepration`), 1000)
+                // if (form.fullname === '' || form.email === '' || form.password === '' || form.number === '' || form.dob === '' || form.gender === '' || form.gender === '' || form.address === '' || form.position === '') {
+                //     setMessage('All fields are required ')
+                // }
                 setMessage('Candiate Created Successfully');
                 setForm({
                     fullname: '',
@@ -67,6 +100,7 @@ export default function Canidate() {
                 setMessage(`${data.message || `Failed to create Candiate User`}`)
             }
 
+            handleClick()
             // function randomInRange(min, max) {
             //     return Math.random() * (max - min) + min;
             // }
@@ -372,7 +406,7 @@ export default function Canidate() {
                     </div>
                     {/* Submit Button */}
                     <button
-                        onClick={() => handleClick()}
+                        // onClick={() => handleClick()}
                         type="submit"
                         className="w-full p-4 bg-gradient-to-r from-green-500 to-green-800 text-white font-semibold rounded-lg shadow transition-shadow hover:shadow-md"
                     >
@@ -381,14 +415,15 @@ export default function Canidate() {
                 </form>
                 {/* <div className="p-3 bg-amber-300" onClick={() => handleClick()}>Confetti</div> */}
                 {/* Status Message */}
-                {message && (
-                    <p className={`mt-6 text-center p-3 rounded font-medium ${message.includes('Error')
+                {/* {message && (
+                    <p className={`mt-6 text-center p-3 rounded font-medium ${message.includes('error')
                         ? 'text-red-600 bg-red-50'
                         : 'text-green-600 bg-green-50'
                         }`}>
                         {message}
                     </p>
-                )}
+                )} */}
+                <Toast message="Something went wrong!" type="error" />
             </div>
         </>
     )
