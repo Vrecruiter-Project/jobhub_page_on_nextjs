@@ -1486,6 +1486,124 @@ export const jobsData = {
     },
 },
 
+    'accountant': {
+    title: 'Accountant',
+    description:
+        'As an Accountant, you will be responsible for managing financial records, preparing reports, handling invoices, and ensuring compliance with accounting standards and tax regulations. You will work closely with management to maintain accurate books and support decision-making with reliable financial data.',
+    image: '/images/jobprofile/n-13.png',
+    insights: [
+        'Strong knowledge of accounting principles, GST, and TDS compliance.',
+        'Experience with accounting software like Tally, QuickBooks, or Zoho Books is preferred.',
+        'Ability to prepare and analyze financial statements accurately.',
+        'Freshers with strong commerce background can also apply.',
+        'Opportunities to grow into Senior Accountant or Finance Manager roles.',
+    ],
+    tags: ['Accounting', 'Finance', 'Tally', 'GST', 'Bookkeeping', 'Auditing'],
+    location: 'Chandigarh, Mohali, Punjab, India',
+    salary: '₹18,000 - ₹40,000/month',
+
+    responsibilities: [
+        'Maintain and update day-to-day financial transactions and ledgers.',
+        'Prepare balance sheets, profit & loss statements, and other financial reports.',
+        'Ensure timely filing of GST, TDS, and other statutory returns.',
+        'Handle accounts payable and receivable, invoice processing, and bank reconciliations.',
+        'Support audits by preparing required documentation and records.',
+        'Assist management with budgeting, forecasting, and financial analysis.',
+        'Ensure compliance with company policies and accounting standards.',
+    ],
+
+    qualifications: [
+        'Graduate in Commerce, Accounting, or Finance.',
+        'Certifications in accounting or taxation are an advantage.',
+        'Experience with Tally or other ERP software preferred.',
+        'Good analytical and numerical skills with attention to detail.',
+        'Ability to meet deadlines and manage multiple tasks efficiently.',
+    ],
+
+    benefits: [
+        'Stable full-time role with scope for career advancement.',
+        'Opportunities to learn advanced finance and taxation practices.',
+        'Supportive work culture with exposure to corporate finance.',
+        'Weekly offs, paid leaves, and performance-based incentives.',
+        'Recognition programs for outstanding performance.',
+    ],
+
+    workType: 'Full-Time',
+    shift: 'Day shift (9 AM – 6 PM)',
+
+    metadata: {
+        title: 'Accountant Jobs in Chandigarh, Mohali, Punjab | Hiring Now - JobHub world',
+        description:
+            'Find 100+ Accountant Jobs in Chandigarh & Mohali. Apply for full-time roles with salary up to ₹40,000. Immediate hiring for freshers & experienced candidates.',
+        keywords:
+            'accountant jobs Chandigarh Mohali, tally operator jobs Punjab, fresher accounting roles, GST jobs, finance careers',
+        author: "JobHub - India's Fastest Growing Job Portal",
+        canonical: 'https://www.jobhub.world/jobprofiles/accountant',
+        og: {
+            title: 'Hiring Accountants in Chandigarh & Mohali | JobHub',
+            description:
+                'Urgent hiring for Accountants. Salary ₹18,000 - ₹40,000. Freshers welcome. Apply now on JobHub!',
+            image:
+                '/images/jobprofile/n-13.png',
+            url: 'https://www.jobhub.world/jobprofiles/accountant',
+        },
+        twitter: {
+            title: 'Accountant Job Openings in Chandigarh & Mohali - Apply Today',
+            description:
+                '100+ Accountant vacancies in Chandigarh, Mohali, Punjab. Freshers and experienced candidates welcome. Apply now for immediate joining!',
+            image:
+                '/images/jobprofile/n-13.png',
+        },
+    },
+    structuredData: {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        url: "https://www.jobhub.world/",
+        logo: "https://www.jobhub.world/Jobhub%20logo.png",
+        title: "Accountant Jobs in Chandigarh, Mohali, Punjab",
+        description:
+            "Hiring Accountants for managing financial records, GST, and auditing. Training provided. Immediate joining available.",
+        hiringOrganization: {
+            "@type": "Organization",
+            name: "JobHub",
+            sameAs: "https://www.jobhub.world",
+        },
+        jobLocation: {
+            "@type": "Place",
+            address: {
+                "@type": "PostalAddress",
+                addressLocality: "25th Unit, 3rd Floor, Sushma infinium",
+                addressRegion: "Chandigarh, Mohali, Punjab",
+                postalCode: "140603",
+                addressCountry: "IN",
+            },
+        },
+        contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-8512827174",
+            contactType: "customer service",
+            email: "info.jobhubworld@gmail.com",
+        },
+        datePosted: "2024-05-24",
+        validThrough: "2024-05-24",
+        employmentType: ["FULL_TIME"],
+        baseSalary: {
+            "@type": "MonetaryAmount",
+            currency: "INR",
+            value: {
+                "@type": "QuantitativeValue",
+                minValue: 18000,
+                maxValue: 40000,
+                unitText: "MONTH",
+            },
+        },
+        experienceRequirements: {
+            "@type": "OccupationalExperienceRequirements",
+            monthsOfExperience: 0,
+        },
+    },
+},
+
     'computer-operator': {
     title: 'Computer Operator',
     description:
