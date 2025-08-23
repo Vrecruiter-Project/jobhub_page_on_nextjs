@@ -1,7 +1,7 @@
 /**
  * @author [github](wwww.github.com/w3cdpass)
- *  @Info This is for static Site for jobhub world for Each 15 jobs
- * @description While creating a seperate meta data in header , put all content inside in all 15 pages so make it better for seo  
+ *  @Info This is for static Site for jobhub world for Each 15 - 21 jobs
+ * @description While creating a seperate meta data in header , put all content inside in all 15 - 21 pages so make it better for seo  
  * @update You can update according to ur need so go on 
  */
 export const jobsData = {

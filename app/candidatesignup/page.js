@@ -210,16 +210,21 @@ export default function Canidate() {
                             />
                         </div>
                         <div>
+
                             <label className="block mb-2 font-medium text-gray-700">
                                 Phone Number
                             </label>
-                            <input
-                                type="tel"
-                                value={form.number}
-                                onChange={(e) => setForm({ ...form, number: e.target.value })}
-                                className="w-full p-3 border border-gray-300 rounded-md"
-                                placeholder="+1 234 567 8900"
-                            />
+                            <div className="flex px-1 items-center border border-r-2 border-gray-300 rounded-md">
+                                <span>+91</span>
+                                <input
+                                    type="tel"
+                                    value={form.number}
+                                    onChange={(e) => setForm({ ...form, number: e.target.value })}
+                                    className="w-full p-3"
+                                    placeholder="85274-10963"
+                                />
+                            </div>
+
                         </div>
                         <div>
                             <label className="block mb-2 font-medium text-gray-700">
@@ -423,7 +428,14 @@ export default function Canidate() {
                         {message}
                     </p>
                 )} */}
-                <Toast message="Something went wrong!" type="error" />
+                {message && (
+                    <Toast
+                        message={message}
+                        type={message.toLowerCase().includes('error') || message.toLowerCase().includes('fail') ? 'error' : 'success'}
+                    />
+                )}
+
+                {/* <Toast message="Something went wrong!" type="error" /> */}
             </div>
         </>
     )
